@@ -1,0 +1,20 @@
+{
+  "name": "JindaBlog",
+  "version": "0.0.1",
+  "authors": [
+    "Jirayu Limjinda <jir4yu.l@gmail.com>"
+  ],
+  "description": "JindaBlog, a Simple responsive wordpress theme.",
+  "keywords": [
+    "JindaTheme"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.jir4yu.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
