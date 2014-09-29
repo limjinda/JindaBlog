@@ -1,0 +1,28 @@
+/*
+Theme Name: JindaBlog
+Theme URI: http://www.jir4yu.me;
+Author: Jirayu L
+Author URI: http://www.jir4yu.me
+Description: JindaBlog, a simple responsive wordpress blog theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: jindatheme, jir4yu.me, jindablog, responsive wordpress theme
+*/
+@font-face {
+  font-family: 'boon';
+  src: url("fonts/boon-700.eot");
+  src: url("fonts/boon-700.eot?#iefix") format("embedded-opentype"), url("fonts/boon-700.woff") format("woff"), url("fonts/boon-700.ttf") format("truetype"), url("fonts/boon-700.svg#boon") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'boon';
+  src: url("fonts/boon-300.eot");
+  src: url("fonts/boon-300.eot?#iefix") format("embedded-opentype"), url("fonts/boon-300.woff") format("woff"), url("fonts/boon-300.ttf") format("truetype"), url("fonts/boon-300.svg#boon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'boon';
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
