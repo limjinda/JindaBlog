@@ -2,11 +2,21 @@ body{
 	font-size: 1em;
   line-height: 1.625em;
 	background-color: $gray-bg;
+  font-family: 'boon';
+  &.fixed{
+  	overflow: hidden;
+  	width: 100%;
+  	height: 100%;
+  }
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'boon';
+  font-family: 'boon';
 	font-weight: bold;
+}
+
+#wrapper{
+	position: relative;
 }
 
 .hero-unit{
@@ -14,53 +24,59 @@ h1,h2,h3,h4,h5,h6{
 	margin: auto;
 }
 
-h1 {
-  font-size: 4.25em;
-  line-height: 1.147058823em;
-  margin-top: 0.76470588em;
-  margin-bottom: 0.38235294em;
-}
-h2 {
-  font-size: 2.625em;
-  line-height: 1.238095238em;
-  margin-top: 1.23809524em;
-  margin-bottom: 0.61904762em;
-}
-h3 {
-  font-size: 1.625em;
-  line-height: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-h4 {
-  font-size: 1em;
-  line-height: 1.625em;
-  margin-top: 1.625em;
-  margin-bottom: 1.625em;
+.short-divider{
+	margin: 20px auto;
+	content: '';
+	border-bottom: 1px solid $divider-color;
+	width: 30%;
 }
 
-p, ul, ol, pre, table, blockquote {
-  margin-top: 1.625em;
-  margin-bottom: 1.625em;
-}
-
-/* Sanitation */
-hr {
-  border: 1px solid;
-  margin: -1px 0;
-}
-ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-b, strong, em, small, code {
-  line-height: 1;
-}
-sup, sub {
-  vertical-align: baseline;
-  position: relative;
-  top: -0.4em;
-}
-sub {
-  top: 0.4em;
+.icon-menu{
+	position: fixed;
+	top: 3px;
+	left: 7px;
+	font-size: 82px;
+	color: $text-black;
+	z-index: 10;
+	@include transition(all 0.2s linear);
+	&:hover{
+		color: $text-black;
+		text-decoration: none;
+	}
+	&:before,
+	&:after{
+		cursor: pointer;
+		position: absolute;
+		height: 4px;
+		border-radius: 1px;
+		width: 26px;
+		left: 6px;
+		background-color: $text-black;
+		content: '';
+		display: block;
+		@include transition(all 0.2s linear);
+	}
+	&:before{
+		top: 11px;
+	}
+	&:after{
+		bottom: -9px;
+	}
+	&.active{
+		visibility: hidden;
+		color: $text-white;
+		@include transition(all 0.2s linear);
+		&:before{
+			visibility: visible;
+			top: 19px;
+			background-color: $text-white;
+			@include transform(rotate(45deg));
+		}
+		&:after{
+			visibility: visible;
+			top: 19px;
+			background-color: $text-white;
+			@include transform(rotate(-45deg));
+		}
+	}
 }
