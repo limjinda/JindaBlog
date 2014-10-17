@@ -10,6 +10,9 @@
 			@media #{$md}{
 				margin-top: 30px;
 			}
+			@media #{$lg}{
+				margin-top: 0;
+			}
 		}
 		&:last-child{
 			@media #{$md}{
@@ -17,15 +20,31 @@
 					border-color: transparent;
 				}
 			}
+			@media #{$lg}{
+				.uk-article-divider{
+					border-color: #ddd;
+				}
+			}
 		}
 	}
 	.uk-article{
+		.home-post-image{
+			&:hover{
+				opacity: 0.8;
+				filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+			}
+		}
 		.post-title{
 			font-size: 1.6em;
 			line-height: 1.8em;
 			margin: 15px auto 5px;
 			font-weight: bold;
-			color: $text-black;
+			color: $text-black;			
+			a{
+				&:hover{
+					color: $text-gray;
+				}
+			}
 		}
 		.post-meta{
 			font-size: 12px;

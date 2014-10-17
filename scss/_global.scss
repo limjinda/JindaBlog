@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 .hero-unit{
 	width: 95%;
 	margin: auto;
-	@media #{$md}{
+	@media #{$xlg}{
 		width: 100%;
 	}
 }
@@ -33,6 +33,10 @@ h1,h2,h3,h4,h5,h6{
 	content: '';
 	border-bottom: 1px solid $divider-color;
 	width: 30%;
+	@media #{$lg}{
+		margin: 20px 10px 20px auto;
+		text-align: right;
+	}
 }
 
 .icon-menu{

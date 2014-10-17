@@ -3,6 +3,14 @@
 	@media #{$md}{
 		margin-top: 0;
 	}
+	@media #{$lg}{
+		margin-top: 20px;
+	}
+	.hero-unit{
+		@media #{$xlg}{
+			margin-left: 0;
+		}
+	}
 	.footer-copyright,
 	.footer-credit{
 		font-size: 11px;
@@ -21,7 +29,7 @@
 			padding: 0 5px;
 			white-space: nowrap;
 			@media #{$md}{
-				color: $black-bg;
+				color: $text-black;
 				font-weight: bold;
 				border-bottom: 1px solid transparent;
 			}

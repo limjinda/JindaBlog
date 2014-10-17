@@ -24,6 +24,7 @@
 			<div class="hero-unit">
 				<div class="main-author">
 					<img src="http://www.placehold.it/120x120" class="writer-avatar uk-border-circle" alt="Avatar" />
+					<div class="uk-clearfix"></div>
 					<h1 class="site-title"><a href="<? home_url() ?>">Jir4yu.me</a></h1>
 					<h2 class="site-slogan">Lorem ipsum dolor sit amet, consectetur</h2>
 				</div>
@@ -45,36 +46,36 @@
 				<!-- loop -->
 				<div class="home-post-list">
 					<div class="uk-grid uk-grid-small data-uk-grid-match">
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 post-block">
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
 							<article class="uk-article">
-								<img src="http://www.placehold.it/768x475" class="home-post-image" alt="" />
+								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
 								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
 								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
 								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
 								<hr class="uk-article-divider">
 							</article>
 						</div>
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 post-block">
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
 							<article class="uk-article">
-								<img src="http://www.placehold.it/768x475" class="home-post-image" alt="" />
+								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
 								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
 								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
 								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
 								<hr class="uk-article-divider">
 							</article>
 						</div>
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 post-block">
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
 							<article class="uk-article">
-								<img src="http://www.placehold.it/768x475" class="home-post-image" alt="" />
+								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
 								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
 								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
 								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
 								<hr class="uk-article-divider">
 							</article>
 						</div>
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 post-block">
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
 							<article class="uk-article">
-								<img src="http://www.placehold.it/768x475" class="home-post-image" alt="" />
+								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
 								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
 								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
 								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
@@ -125,7 +126,7 @@
 			</div>
 		</main>
 
-		<div class="clearfix"></div>
+		<div class="uk-clearfix"></div>
 
 	</div>
 
