@@ -1,8 +1,14 @@
+$white-bg: #FFF;
 $gray-bg: #F5F5F5;
 $black-bg: #2d2d2d;
 
-$text-white: $gray-bg;
+$text-white: $white-bg;
 $text-black: #666;
 $text-gray: #aaa;
 
 $divider-color: #777;
+
+$sm: "screen and (min-width : 480px)";
+$md: "screen and (min-width : 768px)";
+$lg: "screen and (min-width : 960px)";
+$xlg: "screen and (min-width : 1200px)";

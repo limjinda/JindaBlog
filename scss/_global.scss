@@ -1,7 +1,8 @@
 body{
 	font-size: 1em;
   line-height: 1.625em;
-	background-color: $gray-bg;
+	background-color: $white-bg;
+	color: $text-black;
   font-family: 'boon';
   &.fixed{
   	overflow: hidden;
@@ -22,6 +23,9 @@ h1,h2,h3,h4,h5,h6{
 .hero-unit{
 	width: 95%;
 	margin: auto;
+	@media #{$md}{
+		width: 100%;
+	}
 }
 
 .short-divider{
@@ -36,11 +40,14 @@ h1,h2,h3,h4,h5,h6{
 	top: 3px;
 	left: 7px;
 	font-size: 82px;
-	color: $text-black;
+	color: $black-bg;
 	z-index: 10;
+	@media #{$md}{
+		display: none !important;
+	}
 	@include transition(all 0.2s linear);
 	&:hover{
-		color: $text-black;
+		color: $black-bg;
 		text-decoration: none;
 	}
 	&:before,
@@ -51,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
 		border-radius: 1px;
 		width: 26px;
 		left: 6px;
-		background-color: $text-black;
+		background-color: $black-bg;
 		content: '';
 		display: block;
 		@include transition(all 0.2s linear);

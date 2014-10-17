@@ -1,5 +1,22 @@
 .home-right-block{
-	padding: 30px 0;
-	@include box-sizing(border-box);
+	padding: 10px 0 20px;
 	position: relative;
+	@include box-sizing(border-box);
+	@media #{$md}{
+		float: left;
+		margin-left: 293px;
+	}
+	@media #{$lg}{
+		float: left;
+		position: absolute;
+		margin-left: 391px;
+	}
+	@media #{$xlg}{
+		width: 60%;
+		margin-left: 40%;
+		.hero-unit{
+			max-width: 720px;
+			margin-left: 20px;
+		}
+	}
 }
