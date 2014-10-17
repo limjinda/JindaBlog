@@ -18,6 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "fontawesome": "~4.2.0"
+    "trmix": "~1.1.0"
   }
 }
