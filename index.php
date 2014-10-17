@@ -5,43 +5,20 @@
 			<div class="hero-unit">
 				<!-- loop -->
 				<div class="home-post-list">
-					<div class="uk-grid uk-grid-small data-uk-grid-match">
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
-							<article class="uk-article">
-								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
-								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
-								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
-								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
-								<hr class="uk-article-divider">
-							</article>
-						</div>
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
-							<article class="uk-article">
-								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
-								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
-								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
-								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
-								<hr class="uk-article-divider">
-							</article>
-						</div>
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
-							<article class="uk-article">
-								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
-								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
-								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
-								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
-								<hr class="uk-article-divider">
-							</article>
-						</div>
-						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
-							<article class="uk-article">
-								<a href="#"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="" /></a>
-								<h3 class="uk-article-title post-title"><a href="#">Lorem Ipsum</a></h3>
-								<p class="uk-article-meta post-meta">on 19 Feb 2015, Posted in Blog</p>
-								<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus quidem optio, aspernatur esse! Eveniet et eius cumque optio libero, ex fugiat, officiis accusantium consectetur vitae esse necessitatibus illum quo! <a href="#" class="more-text">[read more]</a></p>
-								<hr class="uk-article-divider">
-							</article>
-						</div>
+					<div class="uk-grid uk-grid-small" data-uk-grid-match>
+						<?php if (have_posts()): ?>
+							<?php while (have_posts()): the_post(); ?>
+								<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-2 post-block">
+									<article class="uk-article">
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="http://www.placehold.it/768x475" class="home-post-image" alt="<?php the_title(); ?>" /></a>
+										<h3 class="uk-article-title post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+										<p class="uk-article-meta post-meta">on <?php the_time('j F, Y'); ?>, Posted in <?php the_category(' ') ?></p>
+										<p class="post-excerpt"><?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="more-text"><?php _e('read more..', 'jindaBlog'); ?></a></p>
+										<hr class="uk-article-divider">
+									</article>
+								</div>
+							<?php endwhile; ?>
+						<?php endif; ?>
 					</div>
 				</div>
 				<!-- /loop -->

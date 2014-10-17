@@ -3,11 +3,12 @@ $(document).ready(function() {
 	var bd = $('body');
 	var im = $('.icon-menu');
 	var ls = $('.home-left-block');
+	var amb = $('#wpadminbar');
 	var rst;
 	im.on('click', function() {
 		$(this).toggleClass('active');
 		ls.toggleClass('show');
-		bd.toggleClass('fixed')
+		bd.toggleClass('fixed');
 	});
 	function rep(){
 		bd.fadeIn();

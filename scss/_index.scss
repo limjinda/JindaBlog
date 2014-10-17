@@ -24,7 +24,7 @@
 				.uk-article-divider{
 					border-color: #ddd;
 				}
-			}
+			}			
 		}
 	}
 	.uk-article{
@@ -50,6 +50,16 @@
 			font-size: 12px;
 			line-height: 1.4em;
 			margin: 0 auto 10px;
+			a{
+				color: $text-black;
+				font-weight: bold;
+				text-decoration: none;
+				padding: 0 3px;
+				&:hover{
+					background-color: $black-bg;
+					color: $text-white;
+				}
+			}
 		}
 		.post-excerpt{
 			margin: 0 auto 10px;
@@ -68,13 +78,20 @@
 					background-color: $black-bg;
 				}
 				&.more-text{
+					color: $text-black;
 					font-size: 0.9em;
 					white-space: nowrap;
+					&:hover{
+						color: $text-white;
+					}
 				}
 			}
 		}
 		.uk-article-divider{
 			margin-top: 30px;
+			@media #{$xlg}{
+				display: none;
+			}
 		}
 	}
 }
