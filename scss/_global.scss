@@ -23,6 +23,16 @@ body{
   		}
   	}
   }
+  &.single-post{
+  	.home-right-block{
+  		@media #{$md}{
+				width: 100%;
+  		}
+  		@media #{$lg}{
+  			max-width: initial;
+  		}
+  	}
+  }
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -137,4 +147,22 @@ blockquote{
 			color: $text-white;
 		}
 	}
+}
+
+.wmb{
+	margin-bottom: 30px;
+}
+
+.list-image{
+	display: block;
+	margin: 0 auto 20px;
+	opacity: 1;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	@media #{$md}{
+		margin: 0 auto;
+	}
+	&:hover{
+		filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+		opacity: 0.8;
+	}	
 }

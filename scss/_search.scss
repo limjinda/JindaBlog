@@ -1,0 +1,43 @@
+.search-results-page{
+	margin-top: 30px;
+}
+
+.search-form{
+	text-align: center;
+	@media #{$lg}{
+		text-align: right;
+		margin-right: 3px;
+	}
+	.uk-form-blank{
+		text-align: center;
+		border-style: solid !important;
+		color: $text-white !important;
+		border-width: 1px 1px 3px 1px !important;
+		@media #{$lg}{
+			text-align: right;	
+		}
+		&:focus{
+			border: 1px solid $text-gray !important;
+			border-bottom-color: darken($text-gray, 10%) !important;
+			border-width: 1px 1px 3px 1px !important;
+		}
+	}
+}
+
+.entry-title{
+	&.search-title{
+		font-size: 1.6em;
+		margin-top: 0;
+		margin-bottom: 15px;
+		@include ellipsis(95%);
+		a{
+			color: $text-black;
+			padding: 0 5px;
+			&:hover{
+				background-color: $black-bg;
+				color: $text-white;
+				text-decoration: none;
+			}
+		}
+	}
+}

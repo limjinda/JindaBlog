@@ -38,5 +38,6 @@
 					<div class="short-divider"></div>
 					<?php wp_nav_menu( array('theme_location' => 'secondary', 'container' => '', 'menu_class' => 'uk-list uk-list-space') ); ?> 
 				</nav>
+				<?php get_search_form(); ?>
 			</div>			
 		</header>

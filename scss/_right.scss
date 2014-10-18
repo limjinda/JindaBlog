@@ -2,20 +2,25 @@
 	padding: 10px 0 20px;
 	position: relative;
 	@include box-sizing(border-box);
+	z-index: 2;
 	@media #{$md}{
 		float: left;
-		margin-left: 293px;
+		padding-left: 293px;
 	}
 	@media #{$lg}{
 		float: left;
 		position: absolute;
-		margin-left: 391px;
+		padding-left: 405px;
 		padding-top: 30px;
+		.hero-unit{
+			width: 95%;
+			margin: auto;
+		}
 	}
 	@media #{$xlg}{
 		padding: 20px 0 20px;
-		width: 65%;
-		margin-left: 35%;
+		width: 100%;
+		padding-left: 35%;
 		.hero-unit{
 			max-width: 680px;
 			margin-left: 20px;

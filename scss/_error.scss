@@ -1,0 +1,40 @@
+.none-image{
+	display: block;
+	margin: auto;	
+}
+
+.page-content{
+	.search-form{
+		text-align: right;
+	}
+	.uk-form-blank{
+		text-align: center;
+		color: $text-gray !important;
+		height: 40px !important;
+		border: 1px solid $text-gray !important;
+		&:focus{
+			color: $black-bg !important;
+			border: 1px solid $black-bg !important;
+		}
+	}
+}
+
+// ERROR
+
+.page-404{
+	margin-top: 40px;
+	h4{
+		font-size: 2.5em;
+		line-height: 1.4em;
+		color: $text-gray;
+		@media #{$md} {
+			font-size: 3em;
+		}
+		@media #{$lg} {
+			font-size: 3.5em;
+		}
+		@media #{$xlg} {
+			font-size: 4em;
+		}
+	}
+}
