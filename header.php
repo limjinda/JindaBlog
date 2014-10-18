@@ -22,7 +22,7 @@
 
 	<div id="wrapper">
 
-		<a href="#" class="icon-menu">-</a>
+		<a href="#" class="icon-menu"><i class="icon uk-icon-bars"></i></a>
 
 		<header class="home-left-block">
 			<div class="hero-unit">

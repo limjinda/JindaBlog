@@ -3,7 +3,7 @@ body{
   line-height: 1.625em;
 	background-color: $white-bg;
 	color: $text-black;
-  font-family: 'SukhumvitSet';
+  font-family: 'boon';
   &.fixed{
   	overflow: hidden;
   	width: 100%;
@@ -26,7 +26,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'SukhumvitSet';
+  font-family: 'boon';
 	font-weight: bold;
 	cursor: default;
 }
@@ -67,9 +67,9 @@ p{
 
 .icon-menu{
 	position: fixed;
-	top: 3px;
+	top: 7px;
 	left: 7px;
-	font-size: 120px;
+	font-size: 30px;
 	color: $black-bg;
 	z-index: 10;	
 	@media #{$md}{
@@ -80,40 +80,61 @@ p{
 		color: $black-bg;
 		text-decoration: none;
 	}
-	&:before,
-	&:after{
-		cursor: pointer;
-		position: absolute;
-		height: 4px;
-		border-radius: 1px;
-		width: 28px;
-		left: 4px;
-		background-color: $black-bg;
-		content: '';
-		display: block;
-		@include transition(all 0.2s linear);
-	}
-	&:before{
-		top: 4px;
-	}
-	&:after{
-		bottom: -2px;
-	}
 	&.active{
-		visibility: hidden;
 		color: $text-white;
 		@include transition(all 0.2s linear);
-		&:before{
-			visibility: visible;
-			top: 19px;
-			background-color: $text-white;
-			@include transform(rotate(45deg));
+	}
+}
+
+@mixin social-color($color){
+	color: $text-white;
+	background-color: $color;
+	@include transition(all 0.2s linear);
+	&:hover{
+		background-color: darken($color, 10%);
+	}
+}
+
+// override UIKIT
+// ================
+
+blockquote{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	p{
+		margin-bottom: 0;
+		line-height: 1.6em;
+		color: $text-gray;
+	}
+}
+
+.uk-table{
+	a{
+		color: $text-black;
+		padding: 0 3px;
+		&:hover{
+			text-decoration: none;
+			background-color: $black-bg;
+			color: $text-white;
 		}
-		&:after{
-			visibility: visible;
-			top: 19px;
-			background-color: $text-white;
-			@include transform(rotate(-45deg));
+	}
+}
+
+.uk-description-list-line{
+	dt{
+		font-weight: bold;
+		&:nth-child(n+2){
+			margin-top: 10px;
+		}
+	}
+	a{
+		color: $text-black;
+		padding: 0 3px;
+		font-weight: bold;
+		&:hover{
+			text-decoration: none;
+			background-color: $black-bg;
+			color: $text-white;
 		}
 	}
 }

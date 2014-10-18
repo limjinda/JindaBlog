@@ -8,8 +8,8 @@ function jindaBlog_setup() {
 
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-thumbnails' );
-	// set_post_thumbnail_size( 672, 372, true );
-	// add_image_size( 'twentyfourteen-full-width', 1038, 576, true );
+	set_post_thumbnail_size( 768, 475, false );
+	add_image_size( 'jindaBlogCover', 768, 475, array( 'center', 'center' ) );
 
 	register_nav_menus( array(
 		'primary'   => __( 'Primary left sidebar', 'jindaBlog' ),

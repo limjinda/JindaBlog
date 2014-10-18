@@ -1,0 +1,164 @@
+.entry-title{
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.6em;
+	margin: 50px auto 30px;
+	@media #{$lg}{
+		text-align: left;
+		font-size: 3em;
+		margin: 30px auto 20px;
+	}
+}
+
+.entry-content{
+	font-size: 15px;
+	color: $text-black;
+	line-height: 1.6em;
+	@media #{$lg}{
+		font-size: 17px;
+	}
+}
+
+.entry-author{
+	font-size: 20px;
+	color: $text-black;
+	margin: 30px auto 5px;
+}
+
+.entry-meta{
+	font-size: 12px;
+	color: $text-black;
+	margin: 0 auto 20px;
+	a{
+		color: $text-black;
+		padding: 0 5px;
+		font-weight: bold;
+		&:hover{
+			background-color: $black-bg;
+			color: $text-white;
+			text-decoration: none;
+		}
+	}
+}
+
+.entry-social-list{
+	> li{
+		display: inline-block;
+		margin: 0;
+		> a{
+			background-color: #ddd;
+			padding: 3px 7px;
+			&:hover{
+				text-decoration: none;
+			}
+			&.facebook{
+				@include social-color(#3b5998);
+				padding: 3px 10px;
+			}
+			&.twitter{
+				@include social-color(#00aced);
+			}
+			&.google-plus{
+				@include social-color(#dd4b39);
+			}
+		}
+	}
+}
+
+.entry-pagination{
+	a{
+		color: $text-black;
+		text-decoration: none;
+		font-weight: bold;
+		&:hover{
+			color: $text-white;
+			background-color: $black-bg;
+			padding: 0 3px;
+		}
+	}
+}
+
+.entry-content{
+	ul,
+	ol{
+		li{
+			margin: 5px auto;
+			color: $text-black;
+		}
+	}
+	a{
+		color: $text-black;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 0 3px;
+		text-decoration: underline;
+		&:hover{
+			color: $text-white;
+			background-color: $black-bg;
+			text-decoration: none;
+		}
+	}
+	pre{
+		padding: 15px 10px;
+		font-size: 13px;
+	}
+	em{
+		color: $text-gray;
+	}
+	img{
+		&.alignleft{
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 5px;
+		}
+		&.alignright{
+			float: right;
+			margin-left: 10px;
+			margin-bottom: 5px;
+		}
+	}
+	figure{
+		display: block;
+		margin: auto;
+		max-width: 100%;
+		a{
+			padding: initial;
+			&:hover{
+				background-color: initial;
+			}
+		}
+		&.alignleft{
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 5px;
+		}
+		&.alignright{
+			float: right;
+			margin-left: 10px;
+			margin-bottom: 5px;
+		}
+		figcaption{
+			margin-top: 10px;
+			font-size: 12px;
+			color: $text-gray;
+			text-align: center;
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+	strong{
+		color: $text-black;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -16,13 +16,21 @@ Tags: jindatheme, jir4yu.me, jindablog, responsive wordpress theme
 @import 'global';
 
 // LEFT SIDE
+// ================
 @import 'left';
 
 // RIGHT SIDE
+// ================
 @import 'right';
 
 // FOOTER
+// ================
 @import 'footer';
 
 // INDEX
+// ================
 @import 'index';
+
+// VIEWS
+// ================
+@import 'single';

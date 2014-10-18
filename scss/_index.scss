@@ -28,18 +28,25 @@
 		}
 	}
 	.uk-article{
+		figure{
+			overflow: hidden;
+		}
 		.home-post-image{
+			@include transition( all .3s linear );
 			&:hover{
 				opacity: 0.8;
 				filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				@include transform(scale(1.2) rotate(2deg));
 			}
 		}
 		.post-title{
 			font-size: 1.6em;
 			line-height: 1.8em;
-			margin: 15px auto 5px;
+			margin: 0 0 5px;
 			font-weight: bold;
-			color: $text-black;			
+			color: $text-black;
+			@include ellipsis(95%);
+			display: block;
 			a{
 				&:hover{
 					color: $text-gray;
@@ -63,7 +70,7 @@
 		}
 		.post-excerpt{
 			margin: 0 auto 10px;
-			font-family: 'SukhumvitSet';
+			font-family: 'boon';
 			line-height: 1.7em;
 			@media #{$xlg}{
 				font-size: 1.1em;
@@ -89,7 +96,7 @@
 		}
 		.uk-article-divider{
 			margin-top: 30px;
-			@media #{$xlg}{
+			@media #{$lg}{
 				display: none;
 			}
 		}
