@@ -1,37 +1,48 @@
+<?php global $jindaOpt; ?>
 <footer class="footer-block">
 	<div class="hero-unit">
 		<p class="footer-copyright uk-text-center">
-			all posts in <a href="<?= home_url() ?>">Jir4yu.me</a> was written by <a href="https://plus.google.com/114178088498011147130?rel=author" target="_blank">Jirayu L</a> under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+			<?php echo $jindaOpt['opt-footer-1']; ?>
 		</p>
 		<p class="footer-credit uk-text-center">
-			<a href="https://github.com/jir4yu/JindaBlog" target="_blank" title="JiraBlog">JindaBlog</a> is an opensource WordPress theme, created by <a href="http://www.jindatheme.com" target="_blank" title="JindaTheme">JindaTheme</a>
+			<?php echo $jindaOpt['opt-footer-2']; ?>
 		</p>
 		<ul class="footer-social-list">
+			<?php if ($jindaOpt['opt-enable-facebook'] == 1): ?>
+				<li>
+					<a href="<?php echo $jindaOpt['opt-url-facebook'] ?>" title="My Facebook" target="_blank">
+						<i class="uk-icon-facebook-square facebook"></i>
+					</a>
+				</li>
+			<?php endif; ?>
+			<?php if ($jindaOpt['opt-enable-twitter'] == 1): ?>
 			<li>
-				<a href="http://www.facebook.com/byjir4yu" title="My Facebook" target="_blank">
-					<i class="uk-icon-facebook-square facebook"></i>
-				</a>
-			</li>
-			<li>
-				<a href="http://www.twitter.com/jir4yu" title="My Twitter" target="_blank">
+				<a href="<?php echo $jindaOpt['opt-url-twitter'] ?>" title="My Twitter" target="_blank">
 					<i class="uk-icon-twitter-square twitter"></i>
 				</a>
 			</li>
+			<?php endif; ?>
+			<?php if ($jindaOpt['opt-enable-google-plus'] == 1): ?>
 			<li>
-				<a href="https://plus.google.com/+JirayuL" title="My Google Plus" target="_blank">
+				<a href="<?php echo $jindaOpt['opt-url-google-plus'] ?>" title="My Google Plus" target="_blank">
 					<i class="uk-icon-google-plus-square gplus"></i>
 				</a>
 			</li>
+			<?php endif; ?>
+			<?php if ($jindaOpt['opt-enable-linkedin'] == 1): ?>
 			<li>
-				<a href="https://plus.google.com/+JirayuL" title="My Google Plus" target="_blank">
+				<a href="<?php echo $jindaOpt['opt-url-linkedin'] ?>" title="My Google Plus" target="_blank">
 					<i class="uk-icon-linkedin-square linkedin"></i>
 				</a>
 			</li>
+			<?php endif; ?>
+			<?php if ($jindaOpt['opt-enable-github'] == 1): ?>
 			<li>
-				<a href="https://plus.google.com/+JirayuL" title="My Google Plus" target="_blank">
+				<a href="<?php echo $jindaOpt['opt-url-github'] ?>" title="My Google Plus" target="_blank">
 					<i class="uk-icon-github-square github"></i>
 				</a>
 			</li>
+			<?php endif; ?>
 		</ul>
 	</div>
 </footer>
