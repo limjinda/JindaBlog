@@ -106,6 +106,10 @@
 		color: $text-gray;
 	}
 	img{
+		&.size-full{
+			display: block;
+			margin: 15px auto;
+		}
 		&.alignleft{
 			float: left;
 			margin-right: 10px;
