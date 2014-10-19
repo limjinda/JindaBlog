@@ -10,3 +10,9 @@ JindaBlog WordPress theme เป็น open source ที่เขียนข�
 ขอขอบคุณ
 
 Jirayu L.
+
+CREDITs
+=========
+- JindaBlog use BOON font
+- layout with UIKit
+- nice pattern from Subtlepatterns
