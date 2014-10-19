@@ -77,8 +77,10 @@ p{
 
 .icon-menu{
 	position: fixed;
-	top: 7px;
-	left: 7px;
+	width: auto;
+	background-color: white;
+	padding: 7px 10px 5px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.125);
 	font-size: 30px;
 	color: $black-bg;
 	z-index: 10;	
@@ -91,6 +93,8 @@ p{
 		text-decoration: none;
 	}
 	&.active{
+		background-color: transparent;
+		box-shadow: none;
 		color: $text-white;
 		@include transition(all 0.2s linear);
 	}

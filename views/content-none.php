@@ -46,8 +46,8 @@
 					</div>
 			<?php } ?>
 			</div>
-
 		<?php }; ?>
 
 	<?php endif; ?>
+	<?php get_template_part('views/footer'); ?>
 </div>
