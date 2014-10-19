@@ -41,6 +41,7 @@ function jinda_scripts() {
 	wp_enqueue_script('modernizr', get_stylesheet_directory_uri() . '/bower_components/modernizr/modernizr.js');
 	wp_enqueue_script('trmix', get_stylesheet_directory_uri() . '/bower_components/trmix/dist/trmix.min.js', array(), '1.0.0', ture);
 	wp_enqueue_script('uikit', get_stylesheet_directory_uri() . '/bower_components/uikit/js/uikit.min.js', array(), '1.0.0', ture);
+	wp_enqueue_script('jquery-browser', get_stylesheet_directory_uri() . '/bower_components/jquery.browser/dist/jquery.browser.min.js', array(), '1.0.0', ture);
 	wp_enqueue_script('jindablog-core-js', get_stylesheet_directory_uri() . '/js/global.js', array(), '1.0.0', ture);
 }
 add_action( 'wp_enqueue_scripts', 'jinda_scripts' );
