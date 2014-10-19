@@ -6,9 +6,11 @@
  * @subpackage JindaBlog
  * @since JindaBlog 1.0
  */
-
+global $jindaOpt;
 get_header();
 ?>
+
+<?php echo $jindaOpt['opt-vendor-addthis']; ?>
 
 <main class="home-right-block">
 	<div class="hero-unit">

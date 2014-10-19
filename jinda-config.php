@@ -552,108 +552,9 @@
                 
                 // ACTUAL DECLARATION OF SECTIONS
                 $this->sections[] = array(
-                    'title'  => __( 'Home Settings', 'redux-framework-demo' ),
+                    'title'  => __( 'Header and SEO', 'jindaBlog' ),
                     'desc'   => __( 'Jinda settings is powered by Redux. we currently in beta version, stay in the loop by join or watch my repo: https://www.github.com/jir4yu/JindaBlog', 'jindaBlog' ),
-                    'icon'   => 'el-icon-home',
-                    'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
-                    'fields' => array(
-                        array(
-                            'id'       => 'opt-show-secondary-menu',
-                            'type'     => 'checkbox',
-                            'title'    => __( 'Show secondary menu', 'jindaBlog' ),
-                            'default'  => '1'
-                        ),
-                        array(
-                            'id'       => 'opt-footer-1',
-                            'type'     => 'editor',
-                            'title'    => __( 'Footer text, Line1', 'jindaBlog' ),
-                            'subtitle' => __( 'Your name and license', 'jindaBlog' ),
-                            'default'  => 'all posts in <a href="<?= home_url() ?>">Jir4yu.me</a> was written by <a href="https://plus.google.com/114178088498011147130?rel=author" target="_blank">Jirayu L</a> under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>',
-                        ),
-                        array(
-                            'id'       => 'opt-footer-2',
-                            'type'     => 'editor',
-                            'title'    => __( 'Footer text, Line2', 'jindaBlog' ),
-                            'subtitle' => __( 'Theme credit', 'jindaBlog' ),
-                            'default'  => '<a href="https://github.com/jir4yu/JindaBlog" target="_blank" title="JiraBlog">JindaBlog</a> is an opensource WordPress theme, created by <a href="http://www.jindatheme.com" target="_blank" title="JindaTheme">JindaTheme</a>',
-                        ),
-                        array(
-                            'id'       => 'opt-enable-facebook',
-                            'type'     => 'checkbox',
-                            'title'    => __( 'Enable Facebook?', 'jindaBlog' ),
-                            'default'  => '1'
-                        ),
-                        array(
-                            'id'       => 'opt-url-facebook',
-                            'type'     => 'text',
-                            'title'    => __( 'Facebook URL', 'jindaBlog' ),
-                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
-                            'validate' => 'url',
-                            'default'  => 'https://www.facebook.com/byJir4yu'
-                        ),
-                        array(
-                            'id'       => 'opt-enable-twitter',
-                            'type'     => 'checkbox',
-                            'title'    => __( 'Enable Twitter?', 'jindaBlog' ),
-                            'default'  => '1'
-                        ),
-                        array(
-                            'id'       => 'opt-url-twitter',
-                            'type'     => 'text',
-                            'title'    => __( 'Twitter URL', 'jindaBlog' ),
-                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
-                            'validate' => 'url',
-                            'default'  => 'https://www.twitter.com/jir4yu'
-                        ),
-                        array(
-                            'id'       => 'opt-enable-google-plus',
-                            'type'     => 'checkbox',
-                            'title'    => __( 'Enable Google+?', 'jindaBlog' ),
-                            'default'  => '1'
-                        ),
-                        array(
-                            'id'       => 'opt-url-google-plus',
-                            'type'     => 'text',
-                            'title'    => __( 'Google Plus URL', 'jindaBlog' ),
-                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
-                            'validate' => 'url',
-                            'default'  => 'https://plus.google.com/+JirayuL'
-                        ),
-                        array(
-                            'id'       => 'opt-enable-linkedin',
-                            'type'     => 'checkbox',
-                            'title'    => __( 'Enable Linkedin?', 'jindaBlog' ),
-                            'default'  => '1'
-                        ),
-                        array(
-                            'id'       => 'opt-url-linkedin',
-                            'type'     => 'text',
-                            'title'    => __( 'Linkedin URL', 'jindaBlog' ),
-                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
-                            'validate' => 'url',
-                            'default'  => 'https://www.linkedin.com/in/jir4yu'
-                        ),
-                        array(
-                            'id'       => 'opt-enable-github',
-                            'type'     => 'checkbox',
-                            'title'    => __( 'Enable Github?', 'jindaBlog' ),
-                            'default'  => '1'
-                        ),
-                        array(
-                            'id'       => 'opt-url-github',
-                            'type'     => 'text',
-                            'title'    => __( 'Github URL', 'jindaBlog' ),
-                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
-                            'validate' => 'url',
-                            'default'  => 'https://github.com/jir4yu/'
-                        ),
-                    )
-                );
-
-                $this->sections[] = array(
-                    'title'  => __( 'Header and SEO', 'redux-framework-demo' ),
-                    'desc'   => __( 'Configure your header', 'jindaBlog' ),
-                    'heading' => 'Expanded New Section Title',
+                    'heading' => 'Header and SEO',
                     'icon'   => 'el-icon-list-alt',
                     'submenu' => true,
                     'fields'  => array(
@@ -676,6 +577,141 @@
                             'type'      => 'text',
                             'title'     => __( 'Meta keyword', 'jindaBlog' ),
                             'default'   => '',
+                        ),
+                        array(
+                            'id'       => 'opt-show-secondary-menu',
+                            'type'     => 'checkbox',
+                            'title'    => __( 'Show secondary menu', 'jindaBlog' ),
+                            'default'  => '0'
+                        ),
+                    ),
+                );
+
+                $this->sections[] = array(
+                    'title'  => __( 'Footer and Social', 'redux-framework-demo' ),
+                    'desc'   => __( 'Configure your footer', 'jindaBlog' ),
+                    'icon'   => 'el-icon-facebook',
+                    'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
+                    'fields' => array(                        
+                        array(
+                            'id'       => 'opt-footer-1',
+                            'type'     => 'editor',
+                            'title'    => __( 'Footer text, Line1', 'jindaBlog' ),
+                            'subtitle' => __( 'Your name and license', 'jindaBlog' ),
+                            'default'  => 'all posts in <a href="<?= home_url() ?>">Jir4yu.me</a> was written by <a href="https://plus.google.com/114178088498011147130?rel=author" target="_blank">Jirayu L</a> under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>',
+                        ),
+                        array(
+                            'id'       => 'opt-footer-2',
+                            'type'     => 'editor',
+                            'title'    => __( 'Footer text, Line2', 'jindaBlog' ),
+                            'subtitle' => __( 'Theme credit', 'jindaBlog' ),
+                            'default'  => '<a href="https://github.com/jir4yu/JindaBlog" target="_blank" title="JiraBlog">JindaBlog</a> is an opensource WordPress theme, created by <a href="http://www.jindatheme.com" target="_blank" title="JindaTheme">JindaTheme</a>',
+                        ),
+                        array(
+                            'id'       => 'opt-enable-facebook',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable Facebook?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-facebook',
+                            'type'     => 'text',
+                            'title'    => __( 'Facebook URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://www.facebook.com/byJir4yu',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-facebook', "=", 1 ),
+                        ),
+                        array(
+                            'id'       => 'opt-enable-twitter',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable Twitter?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-twitter',
+                            'type'     => 'text',
+                            'title'    => __( 'Twitter URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://www.twitter.com/jir4yu',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-twitter', "=", 1 ),
+                        ),
+                        array(
+                            'id'       => 'opt-enable-google-plus',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable Google+?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-google-plus',
+                            'type'     => 'text',
+                            'title'    => __( 'Google Plus URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://plus.google.com/+JirayuL',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-google-plus', "=", 1 ),
+                        ),
+                        array(
+                            'id'       => 'opt-enable-linkedin',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable Linkedin?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-linkedin',
+                            'type'     => 'text',
+                            'title'    => __( 'Linkedin URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://www.linkedin.com/in/jir4yu',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-linkedin', "=", 1 ),
+                        ),
+                        array(
+                            'id'       => 'opt-enable-github',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable Github?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-github',
+                            'type'     => 'text',
+                            'title'    => __( 'Github URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://github.com/jir4yu/',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-github', "=", 1 ),
+                        ),
+                    )
+                );
+
+                $this->sections[] = array(
+                    'title'  => __( 'Addthis', 'jindaBlog' ),
+                    'desc'   => __( 'If use Addthis, please copy and paste your widget code to this section', 'jindaBlog' ),
+                    'heading' => 'Addthis',
+                    'icon'   => 'el-icon-share',
+                    'submenu' => true,
+                    'fields'  => array(
+                        array(
+                            'id'       => 'opt-enable-addthis',
+                            'type'     => 'switch',
+                            'title'    => __( 'use AddThis?', 'jindaBlog' ),
+                            'subtitle' => __( 'https://www.addthis.com', 'jindaBlog' ),
+                            'default'  => false,
+                        ),
+                        array(
+                            'id'       => 'opt-vendor-addthis',
+                            'type'     => 'textarea',
+                            'title'    => __( 'Addthis Code', 'jindaBlog' ),
+                            'subtitle' => __( 'Just place your widget code here', 'jindaBlog' ),
+                            'default'  => '',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-addthis', "=", 1 ),
                         ),
                     ),
                 );
@@ -1735,7 +1771,7 @@
                     // TYPICAL -> Change these values as you need/desire
                     'opt_name'             => 'jinda_opt',
                     // This is where your data is stored in the database and also becomes your global variable name.
-                    'display_name'         => $theme->get( 'Jinda Settings' ),
+                    'display_name'         => $theme->get( 'Name' ),
                     // Name that appears at the top of your panel
                     'display_version'      => $theme->get( 'Version' ),
                     // Version that appears at the top of your panel

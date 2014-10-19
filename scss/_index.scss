@@ -32,11 +32,10 @@
 			overflow: hidden;
 		}
 		.home-post-image{
-			@include transition( all .3s linear );
+			@include transition( all .15s linear );
 			&:hover{
 				opacity: 0.8;
 				filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-				@include transform(scale(1.2) rotate(2deg));
 			}
 		}
 		.post-title{
@@ -49,6 +48,7 @@
 			display: block;
 			a{
 				&:hover{
+					@include transition( all .15s linear );
 					color: $text-gray;
 				}
 			}

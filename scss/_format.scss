@@ -1,0 +1,50 @@
+// QUOTE
+.single-format-quote{
+	.home-right-block{
+		padding-top: 50px;
+		@media #{$lg} {
+			padding-top: 100px;		
+		}
+	}
+	.entry-title,
+	.entry-content,
+	.entry-author,
+	.entry-meta,
+	.addthis_sharing_toolbox{
+		text-align: center;		
+	}
+	.entry-title{
+		font-size: 1.4em;
+	}
+	.entry-content{
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 2em;
+		line-height: 1.6em;
+		@media #{$sm} {
+			width: 80%;
+		}
+	}
+	.entry-author{
+		margin-top: 50px;
+		@media #{$lg}{
+			margin-top: 70px;
+		}
+	}
+	.entry-meta{
+		margin-bottom: 10px;
+	}
+	.addthis_sharing_toolbox{
+		margin-bottom: 30px;
+	}
+	.footer-block{
+		display: none;
+		@media #{$sm} {
+			display: block;
+		}
+	}
+	#respond{
+		display: none;
+	}
+}
