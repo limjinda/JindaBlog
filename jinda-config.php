@@ -561,8 +561,6 @@
                             'id'       => 'opt-show-secondary-menu',
                             'type'     => 'checkbox',
                             'title'    => __( 'Show secondary menu', 'jindaBlog' ),
-                            // 'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                            // 'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
                             'default'  => '1'
                         ),
                         array(
@@ -650,6 +648,40 @@
                             'default'  => 'https://github.com/jir4yu/'
                         ),
                     )
+                );
+
+                $this->sections[] = array(
+                    'title'  => __( 'Header and SEO', 'redux-framework-demo' ),
+                    'desc'   => __( 'Configure your header', 'jindaBlog' ),
+                    'heading' => 'Expanded New Section Title',
+                    'icon'   => 'el-icon-list-alt',
+                    'submenu' => true,
+                    'fields'  => array(
+                        array(
+                            'id'       => 'opt-header-analytics',
+                            'type'     => 'ace_editor',
+                            'title'    => __( 'Google Analytics', 'jindaBlog' ),
+                            'subtitle' => __( 'Place your analytics code', 'jindaBlog' ),
+                            'desc'     => __( '** NOTE: without script tag **', 'jindaBlog' ),
+                            'default'  => '',
+                        ),
+                        array(
+                            'id'        => 'opt-header-description',
+                            'type'      => 'text',
+                            'title'     => __( 'Meta Description', 'jindaBlog' ),
+                            'default'   => '',
+                        ),
+                        array(
+                            'id'        => 'opt-header-keyword',
+                            'type'      => 'text',
+                            'title'     => __( 'Meta keyword', 'jindaBlog' ),
+                            'default'   => '',
+                        ),
+                    ),
+                );
+
+                $this->sections[] = array(
+                    'type' => 'divide',
                 );
 
                 // $this->sections[] = array(
@@ -1724,17 +1756,17 @@
                     //'disable_google_fonts_link' => true,                    // Disable this in case you want to create your own google fonts loader
                     'admin_bar'            => false,
                     // Show the panel pages on the admin bar
-                    'admin_bar_icon'     => 'dashicons-portfolio',
+                    'admin_bar_icon'     => 'dashicons-chart-area',
                     // Choose an icon for the admin bar menu
                     'admin_bar_priority' => 50,
                     // Choose an priority for the admin bar menu
                     'global_variable'      => 'jindaOpt',
                     // Set a different name for your global variable other than the opt_name
-                    'dev_mode'             => true,
+                    'dev_mode'             => false,
                     // Show the time the page took to load, etc
-                    'update_notice'        => true,
+                    'update_notice'        => false,
                     // If dev_mode is enabled, will notify developer of updated versions available in the GitHub Repo
-                    'customizer'           => true,
+                    'customizer'           => false,
                     // Enable basic customizer support
                     //'open_expanded'     => true,                    // Allow you to start the panel in an expanded way initially.
                     //'disable_save_warn' => true,                    // Disable the save warning when a user changes a field
@@ -1746,7 +1778,7 @@
                     // For a full list of options, visit: http://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
                     'page_permissions'     => 'manage_options',
                     // Permissions needed to access the options panel.
-                    'menu_icon'            => '',
+                    'menu_icon'            => 'dashicons-chart-area',
                     // Specify a custom URL to an icon
                     'last_tab'             => '',
                     // Force your panel to always open to a specific tab (by id)

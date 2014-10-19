@@ -4,28 +4,30 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
+	<?php global $jindaOpt; ?>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php bloginfo('name') ?> <?php wp_title(); ?></title>
-	<meta name="keywords" content="Jir4yu.me, JindaTheme, WordPress, Responsive Theme" />
-	<meta name="description" content="<?php bloginfo('description') ?>" />
+	<title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
+	<?php if (is_single()): global $post; setup_postdata($post); ?>
+  <?php $tags = get_the_tags($post); if( is_array($tags) ){ foreach ($tags as $tag) { $all_tags = $all_tags.$tag->name.", "; } } ?>
+  <meta name="description" content="<?= iconv_substr(get_the_excerpt(),0,135,"UTF-8").'..'; ?>" />
+  <meta name="keywords" content="<?= $all_tags ?>">
+  <?php else: ?>
+  <meta name="description" content="<?php echo $jindaOpt['opt-header-description']; ?>">
+  <meta name="keywords" content="<?php echo $jindaOpt['opt-header-keyword']; ?>">
+  <?php endif; ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<!-- analytics -->
 	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	  ga('create', 'UA-37860514-1', 'auto');
-	  ga('send', 'pageview');
+	  <?php echo $jindaOpt['opt-header-analytics']; ?>
 	</script>
 	<!-- analytics -->
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class( $class ); ?>>
-	<?php global $jindaOpt; ?>
+	
 	<div id="wrapper">
 
 		<a href="#" class="icon-menu"><i class="icon uk-icon-bars"></i></a>
