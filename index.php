@@ -16,6 +16,8 @@
 					</div>
 				</div>
 				<!-- /loop -->
+				<?php get_template_part('views/pagination') ?>
+				<!-- footer -->
 				<?php get_template_part('views/footer'); ?>
 			</div>
 		</main>

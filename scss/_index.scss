@@ -102,3 +102,17 @@
 		}
 	}
 }
+
+.page-navigation{
+	margin-top: 20px auto;
+	a{
+		padding: 0 5px;
+		color: $text-black;
+		font-weight: bold;
+		text-decoration: none;
+		&:hover{
+			background-color: $black-bg;
+			color: $text-white;
+		}
+	}
+}

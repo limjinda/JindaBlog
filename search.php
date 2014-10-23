@@ -27,6 +27,7 @@ get_header(); ?>
 					</div>
 				<?php endwhile; ?>
 			</div>
+			<?php get_template_part('views/pagination') ?>
 			<?php get_template_part( 'views/footer' ); ?>
 
 		<?php else: ?>
