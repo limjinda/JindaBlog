@@ -21,7 +21,7 @@ get_header(); ?>
 					<div class="uk-panel uk-panel-box">
 						<h3 class="uk-panel-title"><i class="uk-icon-folder-open-o"></i> <a href="<?php echo get_category_link( $cate->term_id ) ?>" title="<?php echo $cate->name ?>"><?php echo $cate->name ?></a></h3>
 						<?php echo $cate->description ?>
-						<p class="uk-text-small uk-text-primary uk-text-bold uk-text-right"><?php echo $cate->count ?> <?php _e('Titles', 'jindaBlog') ?></p>
+						<p class="uk-text-small uk-text-primary uk-text-bold uk-text-right"><?php echo $cate->count ?> <?php _e('เรื่อง', 'jindaBlog') ?></p>
 					</div>
 				</div>
 				<?php } ?>

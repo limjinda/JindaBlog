@@ -6,11 +6,12 @@
 	@media #{$md}{
 		float: left;
 		padding-left: 293px;
+		width: 100%;
 	}
 	@media #{$lg}{
 		float: left;
 		position: absolute;
-		padding-left: 405px;
+		padding-left: 390px;
 		padding-top: 30px;
 		.hero-unit{
 			width: 95%;

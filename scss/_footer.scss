@@ -24,7 +24,8 @@
 		}
 		a{
 			color: $text-black;
-			border-bottom: 1px dotted $black-bg;
+			// border-bottom: 1px dotted $black-bg;
+			font-weight: bold;
 			text-decoration: none;
 			padding: 0 5px;
 			white-space: nowrap;

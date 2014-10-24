@@ -12,8 +12,8 @@
 			<?php endif ?>
 		</a>
 		<h3 class="uk-article-title post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-		<p class="uk-article-meta post-meta">on <?php the_time('j F, Y'); ?>, Posted in <?php the_category(' ') ?></p>
-		<p class="post-excerpt"><?= iconv_substr(get_the_excerpt(),0,200,"UTF-8").' '; ?> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="more-text"><?php _e('read more..', 'jindaBlog'); ?></a></p>
+		<p class="uk-article-meta post-meta"><?php _e('เมื่อ', 'jindaBlog') ?> <?php the_time('j F, Y'); ?>, <?php _e('ในหมวดหมู่', 'jindaBlog') ?> <?php the_category(' ') ?></p>
+		<p class="post-excerpt"><?= iconv_substr(get_the_excerpt(),0,200,"UTF-8").' '; ?> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="more-text"><?php _e('อ่านต่อ..', 'jindaBlog'); ?></a></p>
 		<hr class="uk-article-divider">
 	</article>
 </div>
