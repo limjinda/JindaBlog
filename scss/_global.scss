@@ -162,6 +162,10 @@ blockquote{
 	margin: 0 auto 20px;
 	opacity: 1;
 	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	padding: 2px;
+	background-color: $white-bg;
+	@include box-sizing(border-box);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.125);
 	@media #{$md}{
 		margin: 0 auto;
 	}
