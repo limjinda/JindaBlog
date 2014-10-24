@@ -717,6 +717,22 @@
                 );
 
                 $this->sections[] = array(
+                    'title'  => __( 'Related Posts', 'jindaBlog' ),
+                    'desc'   => __( 'Related Posts without any plugins', 'jindaBlog' ),
+                    'heading' => 'Related Posts',
+                    'icon'   => 'el-icon-th-list',
+                    'submenu' => true,
+                    'fields'  => array(
+                        array(
+                            'id'       => 'opt-enable-related',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable related posts', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                    ),
+                );
+
+                $this->sections[] = array(
                     'type' => 'divide',
                 );
 
