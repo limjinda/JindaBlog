@@ -1,0 +1,1159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jindaBlog 1.0\n"
+"POT-Creation-Date: 2014-10-26 09:06+0700\n"
+"PO-Revision-Date: 2014-10-26 09:07+0700\n"
+"Last-Translator: Jirayu L <jir4yu.l@gmail.com>\n"
+"Language-Team: JindaTheme <hello@jindatheme.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "404 something went wrong.."
+msgstr ""
+
+#: ../404.php:19
+msgid "but no need to worry, will take you home"
+msgstr ""
+
+#: ../404.php:20
+msgid "Go to Home"
+msgstr ""
+
+#: ../functions.php:17
+msgid "Primary left sidebar"
+msgstr ""
+
+#: ../functions.php:18
+msgid "Secondary left sidebar"
+msgstr ""
+
+#: ../jinda-config.php:108 ../sample-config.php:108
+msgid "Section via hook"
+msgstr ""
+
+#: ../jinda-config.php:109 ../sample-config.php:109
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../jinda-config.php:189 ../sample-config.php:189
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../jinda-config.php:209 ../sample-config.php:209
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../jinda-config.php:210 ../sample-config.php:210
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../jinda-config.php:211 ../sample-config.php:211
+msgid "Tags"
+msgstr ""
+
+#: ../jinda-config.php:216 ../sample-config.php:216
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../jinda-config.php:216 ../sample-config.php:216
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../jinda-config.php:555
+msgid "Header and SEO"
+msgstr ""
+
+#: ../jinda-config.php:556
+msgid ""
+"Jinda settings is powered by Redux. we currently in beta version, stay in "
+"the loop by join or watch my repo: https://www.github.com/jir4yu/JindaBlog"
+msgstr ""
+
+#: ../jinda-config.php:564
+msgid "Google Analytics"
+msgstr ""
+
+#: ../jinda-config.php:565
+msgid "Place your analytics code"
+msgstr ""
+
+#: ../jinda-config.php:566
+msgid "** NOTE: without script tag **"
+msgstr ""
+
+#: ../jinda-config.php:572
+msgid "Meta Description"
+msgstr ""
+
+#: ../jinda-config.php:578
+msgid "Meta keyword"
+msgstr ""
+
+#: ../jinda-config.php:584
+msgid "Show secondary menu"
+msgstr ""
+
+#: ../jinda-config.php:591
+msgid "Footer and Social"
+msgstr ""
+
+#: ../jinda-config.php:592
+msgid "Configure your footer"
+msgstr ""
+
+#: ../jinda-config.php:599
+msgid "Footer text, Line1"
+msgstr ""
+
+#: ../jinda-config.php:600
+msgid "Your name and license"
+msgstr ""
+
+#: ../jinda-config.php:606
+msgid "Footer text, Line2"
+msgstr ""
+
+#: ../jinda-config.php:607
+msgid "Theme credit"
+msgstr ""
+
+#: ../jinda-config.php:613
+msgid "Enable Facebook?"
+msgstr ""
+
+#: ../jinda-config.php:619
+msgid "Facebook URL"
+msgstr ""
+
+#: ../jinda-config.php:620 ../jinda-config.php:636 ../jinda-config.php:652
+#: ../jinda-config.php:668 ../jinda-config.php:684 ../sample-config.php:858
+msgid "This must be a URL."
+msgstr ""
+
+#: ../jinda-config.php:629
+msgid "Enable Twitter?"
+msgstr ""
+
+#: ../jinda-config.php:635
+msgid "Twitter URL"
+msgstr ""
+
+#: ../jinda-config.php:645
+msgid "Enable Google+?"
+msgstr ""
+
+#: ../jinda-config.php:651
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../jinda-config.php:661
+msgid "Enable Linkedin?"
+msgstr ""
+
+#: ../jinda-config.php:667
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../jinda-config.php:677
+msgid "Enable Github?"
+msgstr ""
+
+#: ../jinda-config.php:683
+msgid "Github URL"
+msgstr ""
+
+#: ../jinda-config.php:694
+msgid "Addthis"
+msgstr ""
+
+#: ../jinda-config.php:695
+msgid "If use Addthis, please copy and paste your widget code to this section"
+msgstr ""
+
+#: ../jinda-config.php:703
+msgid "use AddThis?"
+msgstr ""
+
+#: ../jinda-config.php:704
+msgid "https://www.addthis.com"
+msgstr ""
+
+#: ../jinda-config.php:710
+msgid "Addthis Code"
+msgstr ""
+
+#: ../jinda-config.php:711
+msgid "Just place your widget code here"
+msgstr ""
+
+#: ../jinda-config.php:720
+msgid "Related Posts"
+msgstr ""
+
+#: ../jinda-config.php:721
+msgid "Related Posts without any plugins"
+msgstr ""
+
+#: ../jinda-config.php:729
+msgid "Enable related posts"
+msgstr ""
+
+#: ../jinda-config.php:1510 ../sample-config.php:1324
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../jinda-config.php:1511 ../sample-config.php:1325
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../jinda-config.php:1512 ../sample-config.php:1326
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../jinda-config.php:1516 ../sample-config.php:1330
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../jinda-config.php:1523 ../jinda-config.php:1753 ../jinda-config.php:1899
+#: ../sample-config.php:1337 ../sample-config.php:1567
+#: ../sample-config.php:1713
+msgid "Documentation"
+msgstr ""
+
+#: ../jinda-config.php:1719 ../sample-config.php:1533
+msgid "Import / Export"
+msgstr ""
+
+#: ../jinda-config.php:1720 ../sample-config.php:1534
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../jinda-config.php:1739 ../sample-config.php:1553
+msgid "Theme Information"
+msgstr ""
+
+#: ../jinda-config.php:1740 ../sample-config.php:986 ../sample-config.php:1134
+#: ../sample-config.php:1353 ../sample-config.php:1554
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: ../jinda-config.php:1764 ../sample-config.php:1578
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../jinda-config.php:1765 ../jinda-config.php:1771 ../sample-config.php:1579
+#: ../sample-config.php:1585
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../jinda-config.php:1770 ../sample-config.php:1584
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../jinda-config.php:1775 ../sample-config.php:1589
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../jinda-config.php:1798 ../jinda-config.php:1799
+msgid "Jinda Settings"
+msgstr ""
+
+#: ../jinda-config.php:1905 ../sample-config.php:1719
+msgid "Support"
+msgstr ""
+
+#: ../jinda-config.php:1911 ../sample-config.php:1725
+msgid "Extensions"
+msgstr ""
+
+#: ../page-templates/category.php:24
+msgid "Titles"
+msgstr ""
+
+#: ../sample-config.php:239
+msgid "Home Settings"
+msgstr ""
+
+#: ../sample-config.php:240
+msgid ""
+"Redux Framework was created with the developer in mind. It allows for any "
+"theme developer to have an advanced theme panel with most of the features a "
+"developer would need. For more information check out the Github repo at: <a "
+"href=\"https://github.com/ReduxFramework/Redux-Framework\">https://github."
+"com/ReduxFramework/Redux-Framework</a>"
+msgstr ""
+
+#: ../sample-config.php:248
+msgid "Web Fonts"
+msgstr ""
+
+#: ../sample-config.php:252 ../sample-config.php:281
+msgid "Basic media uploader with disabled URL input field."
+msgstr ""
+
+#: ../sample-config.php:253 ../sample-config.php:282 ../sample-config.php:300
+#: ../sample-config.php:308
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: ../sample-config.php:262
+msgid "Section Show"
+msgstr ""
+
+#: ../sample-config.php:263 ../sample-config.php:270
+msgid "With the \"section\" field you can create indent option sections."
+msgstr ""
+
+#: ../sample-config.php:269
+msgid "Media Options"
+msgstr ""
+
+#: ../sample-config.php:278
+msgid "Media w/ URL"
+msgstr ""
+
+#: ../sample-config.php:298
+msgid "Media w/o URL"
+msgstr ""
+
+#: ../sample-config.php:299 ../sample-config.php:307
+msgid ""
+"This represents the minimalistic view. It does not have the preview box or "
+"the display URL in an input box. "
+msgstr ""
+
+#: ../sample-config.php:306
+msgid "Media No Preview"
+msgstr ""
+
+#: ../sample-config.php:313
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../sample-config.php:314
+msgid ""
+"Create a new Gallery by selecting existing or uploading new images using the "
+"WordPress native uploader"
+msgstr ""
+
+#: ../sample-config.php:315 ../sample-config.php:702 ../sample-config.php:713
+#: ../sample-config.php:731 ../sample-config.php:829 ../sample-config.php:843
+#: ../sample-config.php:852 ../sample-config.php:859 ../sample-config.php:872
+#: ../sample-config.php:881 ../sample-config.php:890 ../sample-config.php:912
+#: ../sample-config.php:925 ../sample-config.php:934 ../sample-config.php:949
+#: ../sample-config.php:958 ../sample-config.php:967 ../sample-config.php:977
+#: ../sample-config.php:993 ../sample-config.php:1001
+#: ../sample-config.php:1020 ../sample-config.php:1028
+#: ../sample-config.php:1036 ../sample-config.php:1050
+#: ../sample-config.php:1058 ../sample-config.php:1108
+#: ../sample-config.php:1121 ../sample-config.php:1141
+#: ../sample-config.php:1156 ../sample-config.php:1189
+#: ../sample-config.php:1198 ../sample-config.php:1206
+#: ../sample-config.php:1215 ../sample-config.php:1223
+#: ../sample-config.php:1232 ../sample-config.php:1240
+#: ../sample-config.php:1249 ../sample-config.php:1257
+#: ../sample-config.php:1266 ../sample-config.php:1276
+#: ../sample-config.php:1284 ../sample-config.php:1293
+#: ../sample-config.php:1301 ../sample-config.php:1310
+#: ../sample-config.php:1360 ../sample-config.php:1371
+#: ../sample-config.php:1385
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: ../sample-config.php:320
+msgid "Slider Example 1"
+msgstr ""
+
+#: ../sample-config.php:321
+msgid "This slider displays the value as a label."
+msgstr ""
+
+#: ../sample-config.php:322
+msgid "Slider description. Min: 1, max: 500, step: 1, default value: 250"
+msgstr ""
+
+#: ../sample-config.php:332
+msgid "Slider Example 2 with Steps (5)"
+msgstr ""
+
+#: ../sample-config.php:333
+msgid "This example displays the value in a text box"
+msgstr ""
+
+#: ../sample-config.php:334
+msgid "Slider description. Min: 0, max: 300, step: 5, default value: 75"
+msgstr ""
+
+#: ../sample-config.php:344
+msgid "Slider Example 3 with two sliders"
+msgstr ""
+
+#: ../sample-config.php:345
+msgid "This example displays the values in select boxes"
+msgstr ""
+
+#: ../sample-config.php:346
+msgid ""
+"Slider description. Min: 0, max: 500, step: 5, slider 1 default value: 100, "
+"slider 2 default value: 300"
+msgstr ""
+
+#: ../sample-config.php:360
+msgid "Slider Example 4 with float values"
+msgstr ""
+
+#: ../sample-config.php:361
+msgid "This example displays float values"
+msgstr ""
+
+#: ../sample-config.php:362
+msgid "Slider description. Min: 0, max: 1, step: .1, default value: .5"
+msgstr ""
+
+#: ../sample-config.php:373
+msgid "JQuery UI Spinner Example 1"
+msgstr ""
+
+#: ../sample-config.php:374
+msgid ""
+"JQuery UI spinner description. Min:20, max: 100, step:20, default value: 40"
+msgstr ""
+
+#: ../sample-config.php:383
+msgid "Switch On"
+msgstr ""
+
+#: ../sample-config.php:384 ../sample-config.php:391
+msgid "Look, it's on!"
+msgstr ""
+
+#: ../sample-config.php:390
+msgid "Switch Off"
+msgstr ""
+
+#: ../sample-config.php:398
+msgid "Switch - Nested Children, Enable to show"
+msgstr ""
+
+#: ../sample-config.php:399
+msgid "Look, it's on! Also hidden child elements!"
+msgstr ""
+
+#: ../sample-config.php:408
+msgid "Switch - This and the next switch required for patterns to show"
+msgstr ""
+
+#: ../sample-config.php:409 ../sample-config.php:418
+msgid "Also called a \"fold\" parent."
+msgstr ""
+
+#: ../sample-config.php:410 ../sample-config.php:419
+msgid ""
+"Items set with a fold to this ID will hide unless this is set to the "
+"appropriate value."
+msgstr ""
+
+#: ../sample-config.php:417
+msgid "Switch2 - Enable the above switch and this one for patterns to show"
+msgstr ""
+
+#: ../sample-config.php:430
+msgid "Images Option (with pattern=>true)"
+msgstr ""
+
+#: ../sample-config.php:431
+msgid "Select a background pattern."
+msgstr ""
+
+#: ../sample-config.php:477
+msgid "Slides Options"
+msgstr ""
+
+#: ../sample-config.php:478
+msgid "Unlimited slides with drag and drop sortings."
+msgstr ""
+
+#: ../sample-config.php:479
+msgid ""
+"This field will store all slides values into a multidimensional array to use "
+"into a foreach loop."
+msgstr ""
+
+#: ../sample-config.php:481
+msgid "This is a title"
+msgstr ""
+
+#: ../sample-config.php:482
+msgid "Description Here"
+msgstr ""
+
+#: ../sample-config.php:483
+msgid "Give us a link!"
+msgstr ""
+
+#: ../sample-config.php:490
+msgid "Preset"
+msgstr ""
+
+#: ../sample-config.php:491 ../sample-config.php:493
+msgid ""
+"This allows you to set a json string or array to override multiple "
+"preferences in your theme."
+msgstr ""
+
+#: ../sample-config.php:514
+msgid "Typography"
+msgstr ""
+
+#: ../sample-config.php:536
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: ../sample-config.php:555
+msgid "General Settings"
+msgstr ""
+
+#: ../sample-config.php:561
+msgid "Main Layout"
+msgstr ""
+
+#: ../sample-config.php:562
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: ../sample-config.php:595
+msgid "Tracking Code"
+msgstr ""
+
+#: ../sample-config.php:596
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: ../sample-config.php:603
+msgid "CSS Code"
+msgstr ""
+
+#: ../sample-config.php:604
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ../sample-config.php:635
+msgid "Footer Text"
+msgstr ""
+
+#: ../sample-config.php:636
+msgid ""
+"You can use the following shortcodes in your footer text: [wp-url] [site-"
+"url] [theme-url] [login-url] [logout-url] [site-title] [site-tagline] "
+"[current-year]"
+msgstr ""
+
+#: ../sample-config.php:651
+msgid "Styling Options"
+msgstr ""
+
+#: ../sample-config.php:657
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: ../sample-config.php:658
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: ../sample-config.php:666
+msgid "Body Background Color"
+msgstr ""
+
+#: ../sample-config.php:667
+msgid "Pick a background color for the theme (default: #fff)."
+msgstr ""
+
+#: ../sample-config.php:675
+msgid "Body Background"
+msgstr ""
+
+#: ../sample-config.php:676
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: ../sample-config.php:682
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../sample-config.php:683
+msgid "Pick a background color for the footer (default: #dd9933)."
+msgstr ""
+
+#: ../sample-config.php:690
+msgid "Color RGBA - BETA"
+msgstr ""
+
+#: ../sample-config.php:691
+msgid ""
+"Gives you the RGBA color. Still quite experimental. Use at your own risk."
+msgstr ""
+
+#: ../sample-config.php:700
+msgid "Header Gradient Color Option"
+msgstr ""
+
+#: ../sample-config.php:701 ../sample-config.php:712 ../sample-config.php:728
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: ../sample-config.php:711
+msgid "Links Color Option"
+msgstr ""
+
+#: ../sample-config.php:727
+msgid "Header Border Option"
+msgstr ""
+
+#: ../sample-config.php:757
+msgid "Padding/Margin Option"
+msgstr ""
+
+#: ../sample-config.php:758
+msgid "Allow your users to choose the spacing or margin they want."
+msgstr ""
+
+#: ../sample-config.php:759
+msgid ""
+"You can enable or disable any piece of this field. Top, Right, Bottom, Left, "
+"or Units."
+msgstr ""
+
+#: ../sample-config.php:772
+msgid "Dimensions (Width/Height) Option"
+msgstr ""
+
+#: ../sample-config.php:773
+msgid "Allow your users to choose width, height, and/or unit."
+msgstr ""
+
+#: ../sample-config.php:774
+msgid ""
+"You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ../sample-config.php:783
+msgid "Body Font"
+msgstr ""
+
+#: ../sample-config.php:784
+msgid "Specify the body font properties."
+msgstr ""
+
+#: ../sample-config.php:796
+msgid "Custom CSS"
+msgstr ""
+
+#: ../sample-config.php:797
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: ../sample-config.php:798
+msgid "This field is even CSS validated!"
+msgstr ""
+
+#: ../sample-config.php:804
+msgid "Custom HTML"
+msgstr ""
+
+#: ../sample-config.php:805
+msgid "Just like a text box widget."
+msgstr ""
+
+#: ../sample-config.php:806
+msgid "This field is even HTML validated!"
+msgstr ""
+
+#: ../sample-config.php:820
+msgid "Field Validation"
+msgstr ""
+
+#: ../sample-config.php:821
+msgid "Validate ALL fields within Redux."
+msgstr ""
+
+#: ../sample-config.php:822
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed2</p>"
+msgstr ""
+
+#: ../sample-config.php:827
+msgid "Text Option - Email Validated"
+msgstr ""
+
+#: ../sample-config.php:828
+msgid ""
+"This is a little space under the Field Title in the Options table, "
+"additional info is good in here."
+msgstr ""
+
+#: ../sample-config.php:841
+msgid "Text Option with Data Attributes"
+msgstr ""
+
+#: ../sample-config.php:842
+msgid ""
+"You can also pass an options array if you want. Set the default to whatever "
+"you like."
+msgstr ""
+
+#: ../sample-config.php:849
+msgid "Multi Text Option - Color Validated"
+msgstr ""
+
+#: ../sample-config.php:851
+msgid ""
+"If you enter an invalid color it will be removed. Try using the text \"blue"
+"\" as a color.  ;)"
+msgstr ""
+
+#: ../sample-config.php:857
+msgid "Text Option - URL Validated"
+msgstr ""
+
+#: ../sample-config.php:870
+msgid "Text Option - Numeric Validated"
+msgstr ""
+
+#: ../sample-config.php:871
+msgid "This must be numeric."
+msgstr ""
+
+#: ../sample-config.php:879
+msgid "Text Option - Comma Numeric Validated"
+msgstr ""
+
+#: ../sample-config.php:880
+msgid "This must be a comma separated string of numerical values."
+msgstr ""
+
+#: ../sample-config.php:888
+msgid "Text Option - No Special Chars Validated"
+msgstr ""
+
+#: ../sample-config.php:889
+msgid "This must be a alpha numeric only."
+msgstr ""
+
+#: ../sample-config.php:897
+msgid "Text Option - Str Replace Validated"
+msgstr ""
+
+#: ../sample-config.php:898 ../sample-config.php:911 ../sample-config.php:924
+#: ../sample-config.php:933
+msgid "You decide."
+msgstr ""
+
+#: ../sample-config.php:899
+msgid "This field's default value was changed by a filter hook!"
+msgstr ""
+
+#: ../sample-config.php:910
+msgid "Text Option - Preg Replace Validated"
+msgstr ""
+
+#: ../sample-config.php:923
+msgid "Text Option - Custom Callback Validated"
+msgstr ""
+
+#: ../sample-config.php:932
+msgid "Text Option - Custom Callback Validated - Class"
+msgstr ""
+
+#: ../sample-config.php:947
+msgid "Textarea Option - No HTML Validated"
+msgstr ""
+
+#: ../sample-config.php:948
+msgid "All HTML will be stripped"
+msgstr ""
+
+#: ../sample-config.php:956
+msgid "Textarea Option - HTML Validated"
+msgstr ""
+
+#: ../sample-config.php:957
+msgid "HTML Allowed (wp_kses)"
+msgstr ""
+
+#: ../sample-config.php:965
+msgid "Textarea Option - HTML Validated Custom"
+msgstr ""
+
+#: ../sample-config.php:966
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr ""
+
+#: ../sample-config.php:975
+msgid "Textarea Option - JS Validated"
+msgstr ""
+
+#: ../sample-config.php:976
+msgid "JS will be escaped"
+msgstr ""
+
+#: ../sample-config.php:985
+msgid "Radio/Checkbox Fields"
+msgstr ""
+
+#: ../sample-config.php:991
+msgid "Checkbox Option"
+msgstr ""
+
+#: ../sample-config.php:992 ../sample-config.php:1000
+#: ../sample-config.php:1019 ../sample-config.php:1027
+#: ../sample-config.php:1035 ../sample-config.php:1049
+#: ../sample-config.php:1057 ../sample-config.php:1072
+#: ../sample-config.php:1140 ../sample-config.php:1155
+#: ../sample-config.php:1188 ../sample-config.php:1197
+#: ../sample-config.php:1205 ../sample-config.php:1214
+#: ../sample-config.php:1222 ../sample-config.php:1231
+#: ../sample-config.php:1239 ../sample-config.php:1248
+#: ../sample-config.php:1256 ../sample-config.php:1265
+#: ../sample-config.php:1283 ../sample-config.php:1292
+#: ../sample-config.php:1300 ../sample-config.php:1309
+#: ../sample-config.php:1317 ../sample-config.php:1359
+#: ../sample-config.php:1370 ../sample-config.php:1384
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: ../sample-config.php:999
+msgid "Multi Checkbox Option"
+msgstr ""
+
+#: ../sample-config.php:1018 ../sample-config.php:1048
+msgid "Multi Checkbox Option (with menu data)"
+msgstr ""
+
+#: ../sample-config.php:1026
+msgid "Multi Checkbox Option (with sidebar data)"
+msgstr ""
+
+#: ../sample-config.php:1034
+msgid "Radio Option"
+msgstr ""
+
+#: ../sample-config.php:1056
+msgid "Images Option"
+msgstr ""
+
+#: ../sample-config.php:1071
+msgid "Images Option for Layout"
+msgstr ""
+
+#: ../sample-config.php:1073
+msgid ""
+"This uses some of the built in images, you can use them for layout options."
+msgstr ""
+
+#: ../sample-config.php:1106 ../sample-config.php:1119
+msgid "Sortable Text Option"
+msgstr ""
+
+#: ../sample-config.php:1107 ../sample-config.php:1120
+msgid "Define and reorder these however you want."
+msgstr ""
+
+#: ../sample-config.php:1133
+msgid "Select Fields"
+msgstr ""
+
+#: ../sample-config.php:1139
+msgid "Select Option"
+msgstr ""
+
+#: ../sample-config.php:1154
+msgid "Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1169
+msgid "Select Image"
+msgstr ""
+
+#: ../sample-config.php:1170
+msgid "A preview of the selected image will appear underneath the select box."
+msgstr ""
+
+#: ../sample-config.php:1181
+msgid "You can easily add a variety of data from WordPress."
+msgstr ""
+
+#: ../sample-config.php:1187
+msgid "Categories Select Option"
+msgstr ""
+
+#: ../sample-config.php:1196
+msgid "Categories Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1204
+msgid "Pages Select Option"
+msgstr ""
+
+#: ../sample-config.php:1213
+msgid "Pages Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1221
+msgid "Tags Select Option"
+msgstr ""
+
+#: ../sample-config.php:1230
+msgid "Tags Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1238
+msgid "Menus Select Option"
+msgstr ""
+
+#: ../sample-config.php:1247
+msgid "Menus Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1255
+msgid "Post Type Select Option"
+msgstr ""
+
+#: ../sample-config.php:1264
+msgid "Post Type Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1274
+msgid "Post Type Multi Select Option + Sortable"
+msgstr ""
+
+#: ../sample-config.php:1275
+msgid "This field also has sortable enabled!"
+msgstr ""
+
+#: ../sample-config.php:1282
+msgid "Posts Select Option2"
+msgstr ""
+
+#: ../sample-config.php:1291
+msgid "Posts Multi Select Option"
+msgstr ""
+
+#: ../sample-config.php:1299
+msgid "User Role Select Option"
+msgstr ""
+
+#: ../sample-config.php:1308
+msgid "Capabilities Select Option"
+msgstr ""
+
+#: ../sample-config.php:1316
+msgid "Elusive Icons Select Option"
+msgstr ""
+
+#: ../sample-config.php:1318
+msgid "Here's a list of all the elusive icons by name and icon."
+msgstr ""
+
+#: ../sample-config.php:1352
+msgid "Additional Fields"
+msgstr ""
+
+#: ../sample-config.php:1358
+msgid "Date Option"
+msgstr ""
+
+#: ../sample-config.php:1369
+msgid "Button Set Option"
+msgstr ""
+
+#: ../sample-config.php:1383
+msgid "Button Set, Multi Select"
+msgstr ""
+
+#: ../sample-config.php:1398
+msgid "This is the info field, if you want to break sections up."
+msgstr ""
+
+#: ../sample-config.php:1404 ../sample-config.php:1412
+#: ../sample-config.php:1420 ../sample-config.php:1434
+#: ../sample-config.php:1442 ../sample-config.php:1451
+#: ../sample-config.php:1460 ../sample-config.php:1469
+msgid "This is a title."
+msgstr ""
+
+#: ../sample-config.php:1405
+msgid "This is an info field with the warning style applied and a header."
+msgstr ""
+
+#: ../sample-config.php:1413
+msgid ""
+"This is an info field with the success style applied, a header and an icon."
+msgstr ""
+
+#: ../sample-config.php:1421
+msgid ""
+"This is an info field with the critical style applied, a header and an icon."
+msgstr ""
+
+#: ../sample-config.php:1435
+msgid ""
+"This is an info notice field with the normal style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ../sample-config.php:1443
+msgid ""
+"This is an info notice field with the info style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ../sample-config.php:1452
+msgid ""
+"This is an info notice field with the warning style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ../sample-config.php:1461
+msgid ""
+"This is an info notice field with the success style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ../sample-config.php:1470
+msgid ""
+"This is an notice field with the critical style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ../sample-config.php:1475
+msgid "Custom Field Callback"
+msgstr ""
+
+#: ../sample-config.php:1476 ../sample-config.php:1484
+msgid "This is a completely unique field type"
+msgstr ""
+
+#: ../sample-config.php:1477 ../sample-config.php:1485
+msgid ""
+"This is created with a callback function, so anything goes in this field. "
+"Make sure to define the function though."
+msgstr ""
+
+#: ../sample-config.php:1483
+msgid "Custom Field Callback - Class"
+msgstr ""
+
+#: ../sample-config.php:1493 ../sample-config.php:1517
+msgid "Customizer Only Option"
+msgstr ""
+
+#: ../sample-config.php:1494 ../sample-config.php:1518
+msgid "The subtitle is NOT visible in customizer"
+msgstr ""
+
+#: ../sample-config.php:1495 ../sample-config.php:1519
+msgid "The field desc is NOT visible in customizer."
+msgstr ""
+
+#: ../sample-config.php:1510
+msgid "Customizer Only"
+msgstr ""
+
+#: ../sample-config.php:1511
+msgid ""
+"<p class=\"description\">This Section should be visible only in Customizer</"
+"p>"
+msgstr ""
+
+#: ../sample-config.php:1612 ../sample-config.php:1613
+msgid "Sample Options"
+msgstr ""
+
+#: ../sample-config.php:1758
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: ../sample-config.php:1760
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../sample-config.php:1764
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../search.php:19
+msgid "Search keyword: "
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Search.."
+msgstr ""
+
+#: ../views/content-home.php:15 ../views/content.php:45
+msgid "on"
+msgstr ""
+
+#: ../views/content-home.php:15 ../views/content.php:45
+msgid "in"
+msgstr ""
+
+#: ../views/content-home.php:16
+msgid "read more"
+msgstr ""
+
+#: ../views/content-none.php:15
+msgid "Nothing found with your query.."
+msgstr ""
+
+#: ../views/content-none.php:18
+msgid "Search agian? or check our recents below"
+msgstr ""
+
+#: ../views/content.php:72
+msgid "Related posts"
+msgstr ""
+
+#: ../views/content.php:100
+msgid "Nothing match at this time."
+msgstr ""
+
+#: ../views/page.php:16
+msgid "edit"
+msgstr ""
+
+#: ../views/pagination.php:3
+msgid "« Previous post"
+msgstr ""
+
+#: ../views/pagination.php:6
+msgid "Next post »"
+msgstr ""

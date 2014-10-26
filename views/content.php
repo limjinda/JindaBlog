@@ -42,7 +42,7 @@
 
 	<div class="entry-footer uk-text-right">
 		<h4 class="entry-author"><?php the_author(); ?></h4>
-		<div class="entry-meta"><?php _e('เมื่อ', 'jindaBlog'); ?> <?php the_time('j F, Y'); ?> <?php _e('ในหมวด', 'jindaBlog'); ?><?php the_category(' ') ?></div>
+		<div class="entry-meta"><?php _e('on', 'jindaBlog'); ?> <?php the_time('j F, Y'); ?> <?php _e('in', 'jindaBlog'); ?><?php the_category(' ') ?></div>
 		<div class="addthis_sharing_toolbox"></div>
 	</div>
 
@@ -69,7 +69,7 @@
 			<div class="related-title-block">
 				<div class="uk-grid">
 					<div class="uk-width-1-1">
-						<h3 class="related-title"><i class="uk-icon-bookmark"></i> <?php _e('เรื่องที่คุณอาจจะสนใจ', 'jindaBlog') ?></h3>
+						<h3 class="related-title"><i class="uk-icon-bookmark"></i> <?php _e('Related posts', 'jindaBlog') ?></h3>
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 					<!-- /relate posts -->			
 				<?php } ?>
 			<?php }else{ ?>
-				<h4 class="related-not-found">- <?php _e('ขออภัย ไม่พบเรื่องที่ใกล้เคียงกับบทความนี้', 'jindaBlog') ?></h4>
+				<h4 class="related-not-found">- <?php _e('Nothing match at this time.', 'jindaBlog') ?></h4>
 			<?php } ?>
 			<hr class="uk-grid-divider">
 

@@ -12,10 +12,10 @@
 	<?php if ( is_search() ) : ?>
 		
 		<div class="uk-alert uk-alert-danger uk-text-center uk-alert-large wmb">
-			<h3><i class="uk-icon-search"></i> <?php _e( 'เราไม่พบสิ่งที่คุณต้องการค้นหา..', 'jindaBlog' ); ?></h3>
+			<h3><i class="uk-icon-search"></i> <?php _e( 'Nothing found with your query..', 'jindaBlog' ); ?></h3>
 		</div>
 		
-		<p class="uk-text-center"><?php _e( 'ลองเปลี่ยนคำค้นหาใหม่ หรือลองดูเรื่องล่าสุดที่ด้านล่าง', 'jindaBlog' ); ?></p>
+		<p class="uk-text-center"><?php _e( 'Search agian? or check our recents below', 'jindaBlog' ); ?></p>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/none.png" class="none-image" alt="Nothing found" />
 		<div class="uk-clearfix"></div>
 		

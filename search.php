@@ -16,7 +16,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 			
 			<div class="uk-alert uk-alert-large wmb">
-				<h3><i class="uk-icon-search"></i> <?php _e('คำที่คุณใช้ค้นหา: ', 'jindaBlog') ?><?php echo get_search_query(); ?></h3>
+				<h3><i class="uk-icon-search"></i> <?php _e('Search keyword: ', 'jindaBlog') ?><?php echo get_search_query(); ?></h3>
 			</div>
 
 			<div class="uk-grid">
