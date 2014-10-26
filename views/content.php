@@ -60,10 +60,10 @@
 		<?php 
 			$id = get_the_ID();
 			$tags = get_the_tags();
-			$cates = get_the_category();
+			// $cates = get_the_category();
 			$post_tag = $tags[0]->term_id;
 			$post_cate = $cates[0]->cat_ID;
-			$related_args = array( 'cat' => $post_cate, 'post_type' => 'post', 'posts_per_page' => 3, 'tag_id' => $post_tag, 'post__not_in' => array($id) );
+			$related_args = array( 'post_type' => 'post', 'posts_per_page' => 3, 'tag_id' => $post_tag, 'post__not_in' => array($id) );
 			$related_posts = new WP_Query($related_args); ?>
 			
 			<div class="related-title-block">
@@ -102,6 +102,7 @@
 			<hr class="uk-grid-divider">
 
 		<?php endif; ?>
+		<?php wp_reset_query(); ?>
 	<?php endif ?>
 
 </article>
