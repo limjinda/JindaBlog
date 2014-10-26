@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jindaBlog 1.0\n"
-"POT-Creation-Date: 2014-10-26 09:06+0700\n"
-"PO-Revision-Date: 2014-10-26 09:07+0700\n"
+"POT-Creation-Date: 2014-10-26 09:15+0700\n"
+"PO-Revision-Date: 2014-10-26 09:15+0700\n"
 "Last-Translator: Jirayu L <jir4yu.l@gmail.com>\n"
 "Language-Team: JindaTheme <hello@jindatheme.com>\n"
 "Language: th\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../404.php:15
 msgid "404 something went wrong.."
-msgstr ""
+msgstr "404 มีบางอย่างหายไป.."
 
 #: ../404.php:19
 msgid "but no need to worry, will take you home"
@@ -26,13 +26,13 @@ msgstr ""
 
 #: ../404.php:20
 msgid "Go to Home"
-msgstr ""
+msgstr "กลับไปหน้าแรก"
 
-#: ../functions.php:17
+#: ../functions.php:15
 msgid "Primary left sidebar"
 msgstr ""
 
-#: ../functions.php:18
+#: ../functions.php:16
 msgid "Secondary left sidebar"
 msgstr ""
 
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../page-templates/category.php:24
 msgid "Titles"
-msgstr ""
+msgstr "เรื่อง"
 
 #: ../sample-config.php:239
 msgid "Home Settings"
@@ -1112,48 +1112,48 @@ msgstr ""
 
 #: ../search.php:19
 msgid "Search keyword: "
-msgstr ""
+msgstr "คำค้นหาของคุณ:"
 
 #: ../searchform.php:2
 msgid "Search.."
-msgstr ""
+msgstr "ค้นหาที่นี่.."
 
 #: ../views/content-home.php:15 ../views/content.php:45
 msgid "on"
-msgstr ""
+msgstr "เมื่อ"
 
 #: ../views/content-home.php:15 ../views/content.php:45
 msgid "in"
-msgstr ""
+msgstr "ในหมวด"
 
 #: ../views/content-home.php:16
 msgid "read more"
-msgstr ""
+msgstr "อ่านต่อ"
 
 #: ../views/content-none.php:15
 msgid "Nothing found with your query.."
-msgstr ""
+msgstr "ไม่พบเรื่องที่คุณค้นหา.."
 
 #: ../views/content-none.php:18
 msgid "Search agian? or check our recents below"
-msgstr ""
+msgstr "ค้นหาอีกครั้ง หรือลองดูเรื่องล่าสุดที่ด้านล่าง"
 
 #: ../views/content.php:72
 msgid "Related posts"
-msgstr ""
+msgstr "เรื่องที่คุณอาจจะสนใจ"
 
 #: ../views/content.php:100
 msgid "Nothing match at this time."
-msgstr ""
+msgstr "ยังไม่มีเรื่องที่ใกล้เคียงในขณะนี้"
 
 #: ../views/page.php:16
 msgid "edit"
-msgstr ""
+msgstr "แก้ไข"
 
 #: ../views/pagination.php:3
 msgid "« Previous post"
-msgstr ""
+msgstr "« เรื่องก่อนหน้า"
 
 #: ../views/pagination.php:6
 msgid "Next post »"
-msgstr ""
+msgstr "เรื่องถัดไป »"
