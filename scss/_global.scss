@@ -213,7 +213,7 @@ blockquote{
 
 .flare{
 	display: none !important;
-	@media #{$lg} {
+	@media #{$xlg} {
 		display: block !important;
 	}
 }
