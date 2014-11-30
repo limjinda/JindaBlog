@@ -210,3 +210,10 @@ blockquote{
 	color: $text-gray;
 	padding-left: 25px;
 }
+
+.flare{
+	display: none !important;
+	@media #{$lg} {
+		display: block !important;
+	}
+}
