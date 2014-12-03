@@ -32,6 +32,11 @@
 			overflow: hidden;
 		}
 		.home-post-image{
+			display: block;
+			margin: auto;
+			@media #{$lg}{
+				margin: auto 0;
+			}
 			@include transition( all .15s linear );
 			&:hover{
 				opacity: 0.8;
