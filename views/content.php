@@ -43,6 +43,7 @@
 	<div class="entry-footer uk-text-right">
 		<h4 class="entry-author"><?php the_author(); ?></h4>
 		<div class="entry-meta"><?php _e('on', 'jindaBlog'); ?> <?php the_time('j F, Y'); ?> <?php _e('in', 'jindaBlog'); ?><?php the_category(' ') ?></div>
+		<div class="addthis_sharing_toolbox"></div>
 	</div>
 
 	<div class="entry-pagination">

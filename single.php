@@ -10,6 +10,8 @@ global $jindaOpt;
 get_header();
 ?>
 
+<?php echo $jindaOpt['opt-vendor-addthis']; ?>
+
 <main class="home-right-block">
 	<div class="hero-unit">
 		<div id="content" class="site-content" role="main">
