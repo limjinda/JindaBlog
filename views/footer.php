@@ -43,6 +43,13 @@
 				</a>
 			</li>
 			<?php endif; ?>
+			<?php if ($jindaOpt['opt-enable-tumblr'] == 1): ?>
+			<li>
+				<a href="<?php echo $jindaOpt['opt-url-tumblr'] ?>" title="My Tumblr" target="_blank">
+					<i class="uk-icon-tumblr-square tumblr"></i>
+				</a>
+			</li>
+			<?php endif; ?>
 		</ul>
 	</div>
 </footer>

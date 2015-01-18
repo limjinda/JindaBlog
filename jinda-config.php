@@ -687,6 +687,22 @@
                             'indent'   => true,
                             'required' => array( 'opt-enable-github', "=", 1 ),
                         ),
+                        array(
+                            'id'       => 'opt-enable-tumblr',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable Tumblr?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-tumblr',
+                            'type'     => 'text',
+                            'title'    => __( 'Tumblr URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://jir4yu.tumblr.com',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-tumblr', "=", 1 ),
+                        ),
                     )
                 );
 
