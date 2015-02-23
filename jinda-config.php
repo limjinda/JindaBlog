@@ -568,7 +568,7 @@
                         ),
                         array(
                             'id'       => 'opt-custom-header',
-                            'type'     => 'ace_editor',
+                            'type'     => 'textarea',
                             'title'    => __( 'Custom Header', 'jindaBlog' ),
                             'subtitle' => __( 'If you wanna add some script or link, please add to this section', 'jindaBlog' ),
                             'default'  => '',
