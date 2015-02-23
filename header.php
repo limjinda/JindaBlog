@@ -24,6 +24,9 @@
 	  <?php echo $jindaOpt['opt-header-analytics']; ?>
 	</script>
 	<!-- analytics -->
+	<!-- custom header -->
+	<?php echo $jindaOpt['opt-custom-header']; ?>
+	<!-- custom header -->
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class( $class ); ?>>

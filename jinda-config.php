@@ -567,6 +567,13 @@
                             'default'  => '',
                         ),
                         array(
+                            'id'       => 'opt-custom-header',
+                            'type'     => 'ace_editor',
+                            'title'    => __( 'Custom Header', 'jindaBlog' ),
+                            'subtitle' => __( 'If you wanna add some script or link, please add to this section', 'jindaBlog' ),
+                            'default'  => '',
+                        ),
+                        array(
                             'id'        => 'opt-header-description',
                             'type'      => 'text',
                             'title'     => __( 'Meta Description', 'jindaBlog' ),
