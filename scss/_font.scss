@@ -1,21 +1,23 @@
 @font-face {
-    font-family: 'boon';
-    src: url('fonts/boon-700.eot');
-    src: url('fonts/boon-700.eot?#iefix') format('embedded-opentype'),
-         url('fonts/boon-700.woff') format('woff'),
-         url('fonts/boon-700.ttf') format('truetype'),
-         url('fonts/boon-700.svg#boon') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'boon';
-    src: url('fonts/boon-300.eot');
-    src: url('fonts/boon-300.eot?#iefix') format('embedded-opentype'),
-         url('fonts/boon-300.woff') format('woff'),
-         url('fonts/boon-300.ttf') format('truetype'),
-         url('fonts/boon-300.svg#boon') format('svg');
+    font-family: 'roboto';
+    src: url('fonts/roboto/roboto-regular.eot');
+    src: url('fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/roboto-regular.woff2') format('woff2'),
+         url('fonts/roboto/roboto-regular.woff') format('woff'),
+         url('fonts/roboto/roboto-regular.ttf') format('truetype'),
+         url('fonts/roboto/roboto-regular.svg#roboto') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto/roboto-bold.eot');
+    src: url('fonts/roboto/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/roboto-bold.woff2') format('woff2'),
+         url('fonts/roboto/roboto-bold.woff') format('woff'),
+         url('fonts/roboto/roboto-bold.ttf') format('truetype'),
+         url('fonts/roboto/roboto-bold.svg#roboto') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }

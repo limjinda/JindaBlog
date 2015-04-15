@@ -97,7 +97,7 @@
 						> a{
 							font-size: 13px;
 							color: $text-gray;
-							font-family: 'boon';
+							font-family: 'roboto';
 							text-decoration: none;
 							&:hover{
 								color: $text-white;
@@ -108,7 +108,7 @@
 				> a{
 					font-size: 16px;
 					color: $text-white;
-					font-family: 'boon';
+					font-family: 'roboto';
 					@media #{$lg}{
 						color: $text-gray;
 						font-size: 18px;
