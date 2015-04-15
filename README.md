@@ -13,6 +13,6 @@ Jirayu L.
 
 CREDITs
 =========
-- JindaBlog use BOON font
+- JindaBlog use Roboto font
 - layout with UIKit
 - nice pattern from Subtlepatterns

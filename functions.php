@@ -34,7 +34,7 @@ add_action( 'after_setup_theme', 'jindaBlog_setup' );
 function jinda_scripts() {
 	
 	wp_enqueue_style('uikit', get_stylesheet_directory_uri() . '/bower_components/uikit/css/uikit.almost-flat.min.css');
-	wp_enqueue_style('jindablog-core', get_stylesheet_uri(), array(), '1.0.0' );
+	wp_enqueue_style('jindablog-core', get_stylesheet_uri(), array(), '2.0.0' );
 
 	wp_deregister_script('jquery');
 	wp_register_script('jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.min.js');
