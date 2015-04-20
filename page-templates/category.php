@@ -17,7 +17,7 @@ get_header(); ?>
 		<div class="page-category">
 			<div class="uk-grid" data-uk-grid-margin data-uk-grid-match="{target:'.uk-panel'}">
 				<?php foreach ($categories as $cate) { ?>
-				<div class="uk-width-1-1 uk-width-small-1-2 uk-width-large-1-3">
+				<div class="uk-width-1-1 uk-width-small-1-2 uk-width-large-1-3" style="margin-bottom: 15px;">
 					<div class="uk-panel uk-panel-box">
 						<h3 class="uk-panel-title"><i class="uk-icon-folder-open-o"></i> <a href="<?php echo get_category_link( $cate->term_id ) ?>" title="<?php echo $cate->name ?>"><?php echo $cate->name ?></a></h3>
 						<?php echo $cate->description ?>
