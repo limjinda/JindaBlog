@@ -37,7 +37,7 @@ function jinda_scripts() {
 	wp_enqueue_style('jindablog-core', get_stylesheet_uri(), array(), '2.0.0' );
 
 	wp_deregister_script('jquery');
-	wp_register_script('jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.min.js#asyncload');
+	wp_register_script('jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.min.js');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('modernizr', get_stylesheet_directory_uri() . '/bower_components/modernizr/modernizr.js#asyncload');
 	wp_enqueue_script('trmix', get_stylesheet_directory_uri() . '/bower_components/trmix/dist/trmix.min.js#asyncload', array(), '2.0.0', true);
