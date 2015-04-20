@@ -48,7 +48,7 @@ function jinda_scripts() {
 add_action( 'wp_enqueue_scripts', 'jinda_scripts' );
 
 function custom_excerpt_length( $length ) {
-	return 27;
+	return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
