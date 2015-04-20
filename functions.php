@@ -37,13 +37,13 @@ function jinda_scripts() {
 	wp_enqueue_style('jindablog-core', get_stylesheet_uri(), array(), '2.0.0' );
 
 	wp_deregister_script('jquery');
-	wp_register_script('jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.min.js');
+	wp_register_script('jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.min.js#asyncload');
 	wp_enqueue_script('jquery');
-	wp_enqueue_script('modernizr', get_stylesheet_directory_uri() . '/bower_components/modernizr/modernizr.js');
-	wp_enqueue_script('trmix', get_stylesheet_directory_uri() . '/bower_components/trmix/dist/trmix.min.js', array(), '1.0.0', true);
-	wp_enqueue_script('uikit', get_stylesheet_directory_uri() . '/bower_components/uikit/js/uikit.min.js', array(), '1.0.0', true);
-	wp_enqueue_script('jquery-browser', get_stylesheet_directory_uri() . '/bower_components/jquery.browser/dist/jquery.browser.min.js', array(), '1.0.0', true);
-	wp_enqueue_script('jindablog-core-js', get_stylesheet_directory_uri() . '/js/global.js', array(), '1.0.0', true);
+	wp_enqueue_script('modernizr', get_stylesheet_directory_uri() . '/bower_components/modernizr/modernizr.js#asyncload');
+	wp_enqueue_script('trmix', get_stylesheet_directory_uri() . '/bower_components/trmix/dist/trmix.min.js#asyncload', array(), '2.0.0', true);
+	wp_enqueue_script('uikit', get_stylesheet_directory_uri() . '/bower_components/uikit/js/uikit.min.js#asyncload', array(), '2.0.0', true);
+	wp_enqueue_script('jquery-browser', get_stylesheet_directory_uri() . '/bower_components/jquery.browser/dist/jquery.browser.min.js#asyncload', array(), '2.0.0', true);
+	wp_enqueue_script('jindablog-core-js', get_stylesheet_directory_uri() . '/js/global.js#asyncload', array(), '2.0.0', true);
 }
 add_action( 'wp_enqueue_scripts', 'jinda_scripts' );
 
@@ -78,6 +78,22 @@ add_shortcode( 'responsive', 'responsive_shortcode' );
 function responsive_shortcode($atts, $content = null){
   return '<div class="responsive-unit">'.$content.'</div>';
 }
+
+/**
+ * JindaBlog - Clean script to use async
+ * @since JindaBlog 2.0
+ **/
+
+function add_async_forscript($url)
+{
+    if (strpos($url, '#asyncload')===false)
+        return $url;
+    else if (is_admin())
+        return str_replace('#asyncload', '', $url);
+    else
+        return str_replace('#asyncload', '', $url)."' async='async"; 
+}
+add_filter('clean_url', 'add_async_forscript', 11, 1);
 
 /**
  * JindaBlog - Custom Button
