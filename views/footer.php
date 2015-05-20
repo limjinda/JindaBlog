@@ -50,6 +50,13 @@
 				</a>
 			</li>
 			<?php endif; ?>
+			<?php if ($jindaOpt['opt-enable-500'] == 1): ?>
+			<li>
+				<a href="<?php echo $jindaOpt['opt-url-500'] ?>" title="My 500px" target="_blank">
+					<i class="uk-icon-camera 500px"></i>
+				</a>
+			</li>
+			<?php endif; ?>
 		</ul>
 	</div>
 </footer>

@@ -710,6 +710,22 @@
                             'indent'   => true,
                             'required' => array( 'opt-enable-tumblr', "=", 1 ),
                         ),
+                        array(
+                            'id'       => 'opt-enable-500',
+                            'type'     => 'switch',
+                            'title'    => __( 'Enable 500px?', 'jindaBlog' ),
+                            'default'  => true,
+                        ),
+                        array(
+                            'id'       => 'opt-url-500',
+                            'type'     => 'text',
+                            'title'    => __( '500px URL', 'jindaBlog' ),
+                            'subtitle' => __( 'This must be a URL.', 'jindaBlog' ),
+                            'validate' => 'url',
+                            'default'  => 'https://500px.com/jir4yu',
+                            'indent'   => true,
+                            'required' => array( 'opt-enable-500', "=", 1 ),
+                        ),
                     )
                 );
 
