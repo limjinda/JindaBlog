@@ -34,7 +34,7 @@ add_action( 'after_setup_theme', 'jindaBlog_setup' );
 function jinda_scripts() {
 	
 	wp_enqueue_style('uikit', get_stylesheet_directory_uri() . '/bower_components/uikit/css/uikit.almost-flat.min.css');
-	wp_enqueue_style('jindablog-core', get_stylesheet_uri(), array(), '2.0.0' );
+	wp_enqueue_style('jindablog-core', get_stylesheet_uri(), array(), '2.0.1' );
 
 	wp_deregister_script('jquery');
 	wp_register_script('jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.min.js', array(), '2.0.0', true);
@@ -43,7 +43,7 @@ function jinda_scripts() {
 	wp_enqueue_script('trmix', get_stylesheet_directory_uri() . '/bower_components/trmix/dist/trmix.min.js', array('jquery'), '2.0.0', true);
 	wp_enqueue_script('uikit', get_stylesheet_directory_uri() . '/bower_components/uikit/js/uikit.min.js', array('jquery'), '2.0.0', true);
 	wp_enqueue_script('jquery-browser', get_stylesheet_directory_uri() . '/bower_components/jquery.browser/dist/jquery.browser.min.js', array('jquery'), '2.0.0', true);
-	wp_enqueue_script('jindablog-core-js', get_stylesheet_directory_uri() . '/js/global.js', array('jquery'), '2.0.0', true);
+	wp_enqueue_script('jindablog-core-js', get_stylesheet_directory_uri() . '/js/global.js', array('jquery'), '2.0.1', true);
 }
 add_action( 'wp_enqueue_scripts', 'jinda_scripts' );
 
