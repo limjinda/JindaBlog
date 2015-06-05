@@ -77,20 +77,25 @@ p{
 
 .icon-menu{
 	position: fixed;
+	right : 7px;
+	bottom: 12px;
 	width: auto;
-	background-color: white;
-	padding: 7px 10px 5px;
+	background-color: $black-bg;
+	padding: 10px 12px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.125);
-	font-size: 30px;
-	color: $black-bg;
-	z-index: 10;	
+	font-size: 24px;
+	color: $white-bg;
+	border-radius: 50em;
+	z-index: 10;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 	@media #{$md}{
 		display: none !important;
 	}
 	@include transition(all 0.2s linear);
 	&:hover{
-		color: $black-bg;
+		color: $white-bg;
 		text-decoration: none;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.7);
 	}
 	&.active{
 		background-color: transparent;

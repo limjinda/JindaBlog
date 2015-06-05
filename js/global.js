@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-	'use strict';
-
 	function rep() {
 		bd.fadeIn();
 	};
@@ -37,8 +35,6 @@ $(document).ready(function() {
 			clearTimeout(rst);
 			rst = setTimeout(rep, 200);
 		});
-	}else{
-		// alert('mobile');
 	}
 
 });
