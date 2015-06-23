@@ -20,7 +20,7 @@ get_header();
 				<?php if ( comments_open() || get_comments_number() ) {
 						comments_template();
 				}?>
-			<? endwhile; ?>
+			<?php endwhile; ?>
 			<?php get_template_part('views/footer'); ?>
 		</div>
 	</div>

@@ -41,8 +41,10 @@
 	</div>
 
 	<div class="entry-footer uk-text-right">
-		<h4 class="entry-author"><?php the_author(); ?></h4>
-		<div class="entry-meta"><?php _e('on', 'jindaBlog'); ?> <?php the_time('j F, Y'); ?> <?php _e('in', 'jindaBlog'); ?><?php the_category(' ') ?></div>
+		<h4 class="entry-author author vcard">
+			<span class="fn"><?php the_author(); ?></span>
+		</h4>
+		<div class="entry-meta"><?php _e('on', 'jindaBlog'); ?> <span class="updated"><?php the_time('Y-m-d'); ?></span> <?php _e('in', 'jindaBlog'); ?><?php the_category(' ') ?></div>
 		<div class="addthis_sharing_toolbox"></div>
 	</div>
 
