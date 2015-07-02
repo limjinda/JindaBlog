@@ -56,7 +56,7 @@
 	</div>
 
 	<?php global $jindaOpt; ?>
-	<?php if ($jindaOpt['opt-enable-related'] == 0): ?>	
+	<?php if ($jindaOpt['opt-enable-related'] == 1): ?>	
 
 		<?php 
 			$id = get_the_ID();
