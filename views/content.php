@@ -53,31 +53,32 @@
 			<div class="uk-width-1-2 uk-text-small"><?php previous_post_link() ?></div>
 			<div class="uk-width-1-2 uk-text-right uk-text-small"><?php next_post_link() ?></div>
 		</div>
-		<hr class="uk-grid-divider">
 	</div>
 
 	<?php global $jindaOpt; ?>
-	<?php if ($jindaOpt['opt-enable-related'] == 1): ?>	
+	<?php if ($jindaOpt['opt-enable-related'] == 0): ?>	
 
 		<?php 
 			$id = get_the_ID();
 			$tags = get_the_tags();
 			// $cates = get_the_category();
 			// $post_cate = $cates[0]->cat_ID;
-			foreach ($tags as $tag) { $post_tag = $tag->term_id; }
-			$related_args = array( 'post_type' => 'post', 'posts_per_page' => 3, 'tag_id' => $post_tag, 'post__not_in' => array($id) );
-			$related_posts = new WP_Query($related_args); ?>
-
-			<div class="related-title-block">
-				<div class="uk-grid">
-					<div class="uk-width-1-1">
-						<h3 class="related-title"><i class="uk-icon-bookmark"></i> <?php _e('Related posts', 'jindaBlog') ?></h3>
-					</div>
-				</div>
-			</div>
-
+			if ( empty($tags) ){
+				return false;
+			}else{
+				foreach ($tags as $tag) { $post_tag = $tag->term_id; }
+				$related_args = array( 'post_type' => 'post', 'posts_per_page' => 3, 'tag_id' => $post_tag, 'post__not_in' => array($id) );
+				$related_posts = new WP_Query($related_args);
+			} ?>
 			<?php if ($related_posts->have_posts()) { 
 				while( $related_posts->have_posts()){ $related_posts->the_post(); ?>
+					<div class="related-title-block">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<h3 class="related-title"><i class="uk-icon-bookmark"></i> <?php _e('Related posts', 'jindaBlog') ?></h3>
+							</div>
+						</div>
+					</div>
 					<!-- related posts -->				
 					<div class="uk-grid" data-uk-grid-match>
 						<div class="uk-width-1-1 uk-width-medium-4-10 uk-width-large-3-10 list-item">
@@ -96,13 +97,12 @@
 							</div>
 						</div>
 					</div>
-					<!-- /relate posts -->			
+					<!-- /relate posts -->
+					<hr class="uk-grid-divider">	
 				<?php } ?>
 			<?php }else{ ?>
-				<h4 class="related-not-found">- <?php _e('Nothing match at this time.', 'jindaBlog') ?></h4>
+				<!-- do nothing -->
 			<?php } ?>
-			<hr class="uk-grid-divider">
-
 		<?php endif; ?>
 		<?php wp_reset_query(); ?>
 	<?php endif ?>

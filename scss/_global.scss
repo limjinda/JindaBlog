@@ -215,3 +215,143 @@ blockquote{
 	color: $text-gray;
 	padding-left: 25px;
 }
+
+.comments-area{
+	margin: 20px auto;
+	.comments-title{
+		font-size: 18px;
+		letter-spacing: 0.3px;
+	}
+	.comment-list{
+		list-style: none;
+		padding: 0;
+		> li{
+			padding: 15px 20px;
+			box-sizing: border-box;
+			background-color: #f1f1f1;
+			border-radius: 4px;
+			margin-bottom: 15px;
+			.children{
+				margin: 25px 0 5px;
+				list-style: none;
+				li{
+					border-radius: 4px;
+					background-color: lighten(#f1f1f1, 5%);
+					padding: 15px 20px;
+					box-sizing: border-box;
+				}
+			}
+		}
+	}
+	.comment-author{
+		img{
+			margin: 5px 10px 10px 0;
+		}
+		a{
+			color: $text-black;
+			&:hover{
+				color: $text-gray;
+				text-decoration: none;
+			}
+		}
+	}
+	.comment-metadata{
+		display: none;
+		a{
+			color: $text-black;
+			font-size: 10px;
+			&:hover{
+				color: $text-gray;
+				text-decoration: none;
+			}
+		}
+	}
+	.comment-content{
+		p{
+			margin: 10px 0;
+			line-height: 1.7;
+
+		}
+	}
+}
+
+.comment-respond{
+	margin: 30px auto 15px;
+	.logged-in-as{
+		a {
+			color: $text-black;
+			text-decoration: none;
+			&:hover{
+				color: $text-gray;
+			}
+		}
+	}
+}
+
+.form-submit{
+	#submit{
+		padding: 8px 25px;
+		color: $text-white;
+		background-color: $text-black;
+		border: 0;
+		cursor: pointer;
+		border: 1px solid transparent;
+		outline: 0 !important;
+		&:hover{
+			color: $text-black;
+			background-color: $text-white;
+			border: 1px solid $text-black;
+		}
+	}
+}
+
+.comment-form-author,
+.comment-form-email{
+	margin: 10px 0;
+}
+
+.label-inline{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	> i{
+		position: relative;
+		top: -2px;
+		margin-right: 3px;
+	} 
+}
+
+.uk-form-label{
+	display: block;
+	font-weight: bold;
+	margin: 10px 0 10px;
+	font-size: 16px;
+	cursor: pointer;
+	> i{
+		position: relative;
+		top: -2px;
+		margin-right: 3px;
+	}
+}
+
+textarea.uk-form-controls{
+	border-radius: 0;
+	padding: 10px 15px;
+}
+
+.required{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
