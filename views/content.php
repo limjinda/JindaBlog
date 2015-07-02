@@ -70,15 +70,15 @@
 				$related_args = array( 'post_type' => 'post', 'posts_per_page' => 3, 'tag_id' => $post_tag, 'post__not_in' => array($id) );
 				$related_posts = new WP_Query($related_args);
 			} ?>
-			<?php if ($related_posts->have_posts()) { 
-				while( $related_posts->have_posts()){ $related_posts->the_post(); ?>
-					<div class="related-title-block">
-						<div class="uk-grid">
-							<div class="uk-width-1-1">
-								<h3 class="related-title"><i class="uk-icon-bookmark"></i> <?php _e('Related posts', 'jindaBlog') ?></h3>
-							</div>
+			<?php if ($related_posts->have_posts()) {  ?>
+				<div class="related-title-block">
+					<div class="uk-grid">
+						<div class="uk-width-1-1">
+							<h3 class="related-title"><i class="uk-icon-bookmark"></i> <?php _e('Related posts', 'jindaBlog') ?></h3>
 						</div>
 					</div>
+				</div>
+				<?php while( $related_posts->have_posts()){ $related_posts->the_post(); ?>
 					<!-- related posts -->				
 					<div class="uk-grid" data-uk-grid-match>
 						<div class="uk-width-1-1 uk-width-medium-4-10 uk-width-large-3-10 list-item">
@@ -97,13 +97,14 @@
 							</div>
 						</div>
 					</div>
-					<!-- /relate posts -->
-					<hr class="uk-grid-divider">	
+					<!-- /relate posts -->					
 				<?php } ?>
+				<hr class="uk-grid-divider">	
 			<?php }else{ ?>
 				<!-- do nothing -->
 			<?php } ?>
 		<?php endif; ?>
+
 		<?php wp_reset_query(); ?>
 	<?php endif ?>
 
