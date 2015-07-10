@@ -100,4 +100,7 @@ function jinda_register_buttons( $buttons ) {
   return $buttons;
 }
 
+// EDITOR STYLE
+// add_editor_style( get_stylesheet_directory_uri(). '/css/editor-style.css' );
+
 ?>
