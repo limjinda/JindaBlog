@@ -15,7 +15,10 @@
 	color: $text-black;
 	line-height: 1.6em;
 	@media #{$lg}{
-		font-size: 17px;
+		font-size: 14px;
+		letter-spacing: 0.3px;
+		color: #444;
+		line-height: 1.6;
 	}
 }
 

@@ -75,10 +75,10 @@
 		}
 		.post-excerpt{
 			margin: 0 auto 10px;
-			font-family: 'roboto';
-			line-height: 1.7em;
+			font-family: $lucida-grande;
+			line-height: 1.6em;
 			@media #{$xlg}{
-				font-size: 1.1em;
+				font-size: 1em;
 			}
 			a{
 				color: $black-bg;
